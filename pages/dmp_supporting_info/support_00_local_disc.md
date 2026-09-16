@@ -6,7 +6,7 @@ search_exclude: false
 contributors: [Jenny Ostrop, Korbinian Bösl, Sagnik Sengupta]
 page_id: support_00_local_disc
 description:
-affiliations:
+supported_by:
 sidebar: dmp_supporting_information
 rdmkit:
 - name: National page for Norway

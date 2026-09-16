@@ -6,7 +6,7 @@ search_exclude: false
 contributors: [Live Kvale, Jenny Ostrop, Korbinian Bösl]
 page_id: 4_legal_ethics
 description: Legal requirements, ethical requirements, codes of conduct
-affiliations: 
+supported_by: 
 sidebar: background_knowledge
 toc: true
 ---

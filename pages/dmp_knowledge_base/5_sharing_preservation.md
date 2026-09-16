@@ -6,7 +6,7 @@ search_exclude: false
 contributors: [Svein Høier, Jenny Ostrop]
 page_id: 5_sharing_preservation
 description: Data sharing, archiving, long-term preservation
-affiliations: 
+supported_by: 
 sidebar: background_knowledge
 toc: true
 ---

@@ -6,7 +6,7 @@ search_exclude: false
 contributors: [Leif Longva, Svein Høier, Ingrid Heggland]
 page_id: 6_responsibilities_resources
 description: Data management responsibilities, Resources for research data management, costing data management
-affiliations: 
+supported_by: 
 sidebar: background_knowledge
 toc: true
 ---

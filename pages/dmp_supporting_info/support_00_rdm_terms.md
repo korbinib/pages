@@ -6,7 +6,7 @@ search_exclude: false
 contributors: [Jenny Ostrop, Korbinian Bösl, Ida Juhasz, Live Kvale, Leif Longva, Svein Høier, Lisbeth Jahren, Ingrid Heggland]
 page_id: support_00_rdm_terms
 description:
-affiliations:
+supported_by:
 sidebar: dmp_supporting_information
 ---
 

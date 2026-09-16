@@ -6,7 +6,7 @@ search_exclude: false
 contributors: [Jenny Ostrop]
 page_id: 0_admin_information
 description: Administrative information about the DMP
-affiliations: 
+supported_by: 
 sidebar: background_knowledge
 toc: true
 ---

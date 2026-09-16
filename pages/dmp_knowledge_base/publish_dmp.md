@@ -6,7 +6,7 @@ search_exclude: false
 contributors: [Jenny Ostrop]
 page_id: publish_dmp
 description: Publishing a DMP
-affiliations: 
+supported_by: 
 sidebar: background_knowledge
 toc: true
 ---

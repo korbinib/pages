@@ -6,7 +6,7 @@ search_exclude: false
 contributors: [Jenny Ostrop, Leif Longva]
 page_id: 1_data_description
 description: Data description, Data types, Data reuse
-affiliations: 
+supported_by: 
 sidebar: background_knowledge
 toc: true
 ---
