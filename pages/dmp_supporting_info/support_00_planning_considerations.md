@@ -27,9 +27,10 @@ turing:
 ---
 
 {% include callout.html type="note" content="
-**On this page**\\
->> Guiding questions to identify research data management challenges\\
->> Addressing research data management in grant proposals\\
+**On this page**
+
+* Guiding questions to identify research data management challenges
+* Addressing research data management in grant proposals
 " %}
 
 It is beneficial to take research data management into consideration already ahead of starting a research project, particularly if applying for external funding. Early identification of aspects that may need attention or potentially time-consuming processes, will avoid delays in the project progress. Furthermore, costs related to data management efforts are considered eligible costs by many research funders. Some funders therefore ask to briefly outline data management as part of project proposals.

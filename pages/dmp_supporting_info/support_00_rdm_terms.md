@@ -11,9 +11,10 @@ sidebar: dmp_supporting_information
 ---
 
 {% include callout.html type="note" content="
-**On this page**\\
->> Navigate research data management terms with ease\\
->> Overview about term definitions we try to follow\\
+**On this page**
+
+* Navigate research data management terms with ease
+* Overview about term definitions we try to follow
 " %}
 
 Some of the terms used in the context of data management plans and research data management might need explanation. We try to adhere to the following definitions.
