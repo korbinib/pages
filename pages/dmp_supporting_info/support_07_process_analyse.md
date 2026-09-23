@@ -130,7 +130,7 @@ It is important to ensure that the data in your project is not corrupted through
 
 Examples of procedures to monitor data quality:
 
-* One common procedure to detect data changes is to calculate checksums (e.g. [SHA256](hhttps://hashgenerator.tools/blog/how-to-verify-sha256.html)) that can be stored and compare after transfers and time
+* One common procedure to detect data changes is to calculate checksums (e.g. [SHA256](https://hashgenerator.tools/blog/how-to-verify-sha256.html)) that can be stored and compare after transfers and time
 * Repeating measurements on the same samples/objects
 * In complex projects, it can be a good idea to define routines for if a
 
