@@ -27,7 +27,7 @@ NOTE: if you already did these steps in the past, start from the `git fetch upst
 
     ```text
     git clone git@github.com:USERNAME/pages.git
-    cd rdmkit
+    cd pages
     ```
 
     NOTE: Make sure you clone the fork and not the original DHP-stottepakke/pages one.
