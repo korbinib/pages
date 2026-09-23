@@ -62,7 +62,7 @@ We are aiming to translate the resource to Norwegian at a later timepoint.
 
 ## Hyperlink styleguide
 
-Please use the following formatting style for all hypertext links when contributing to this page:
+Please use the following formatting style for all hypertext links when contributing to this page (links to tools and resources are an exception, see [Tools and resources](#tools-and-resources) below):
 
 ```text
 [display text](https://sampleurl.com "hover-over text")
@@ -76,6 +76,35 @@ Norwegian language codes: Norwegian = "no", Bokmål = "nb", Nynorsk = "nn".
 ```text
 [display text](https://sampleurl.com){:lang="code"}
 ```
+
+### Tools and resources
+
+Tools and resources, such as DMP tools, repositories, registries, storage services, standards, data sources, DMP guidance and knowledge or training resources, are described once in [the list of tools and resources](https://github.com/DHP-stottepakke/pages/blob/main/_data/tool_and_resource_list.yml) and referenced in the text with a tag instead of a link:
+
+```text
+{% raw %}{% tool "tool_id" %}{% endraw %}
+```
+
+The tag shows the name of the resource. Clicking it opens a pop-up with a short description, a link to the website and links to the registries [bio.tools](https://bio.tools), [FAIRsharing](https://fairsharing.org), [TeSS](https://tess.elixir-europe.org) and [Europe PMC](https://europepmc.org). Every page that uses tags gets a table of the tools and resources on that page. See the [ELIXIR Toolkit Theme documentation](https://elixir-belgium.github.io/elixir-toolkit-theme/resource_table) for details.
+
+* Check whether the resource is already in the list before adding it. New entries go in alphabetical order by `id` and need the fields `id` (lowercase, with hyphens), `name`, `url` and `description` (one sentence, without quotation marks or apostrophes).
+* Add the `registry` keys `biotools`, `fairsharing` (the part of the DOI after `FAIRsharing.`), `tess` (a search term that finds relevant training) and `europmc` (the PubMed ID of the main publication) when the resource is registered there.
+* The tag always shows the `name` from the list, so write the sentence around the tag.
+* To refer to a specific page of a resource, keep a normal link after the tag:
+
+    ```text
+    {% raw %}{% tool "tool_id" %}: [Title of the specific page](https://sampleurl.com/page){% endraw %}
+    ```
+
+* Do not put tags in headings, tables or information boxes: the tag produces HTML that breaks them. When a heading names a resource, put the tag (and a licence badge, if any) on its own line below the heading:
+
+    ```text
+    {% raw %}#### Name of the guidance
+
+    {% tool "tool_id" %}{% endraw %}
+    ```
+
+* Laws, policies, articles, reports and web pages of organisations remain normal links.
 
 ## Annotating text from other sources
 

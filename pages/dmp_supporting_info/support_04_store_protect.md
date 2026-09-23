@@ -51,10 +51,10 @@ Please use the 'Add' button for adding any new guide. Selecting your institution
 
 Institutional storage guides:
 
-* [NTNU Data storage guide](https://i.ntnu.no/wiki/-/wiki/English/Data+storage+guide)
-* [UiB Storage guide](https://www.uib.no/en/foremployees/153608/storage-guide)
-* [UiO Data storage guide](https://www.uio.no/english/services/it/security/lsis/storage-guide.html)
-* [UiT Research data portal - Processing and storage](https://en.uit.no/research/research-dataportal/art?p_document_id=729174)
+* {% tool "ntnu-data-storage-guide" %}
+* {% tool "uib-storage-guide" %}
+* {% tool "uio-data-storage-guide" %}
+* {% tool "uit-processing-storage-guide" %}
 
 ### What is the expected total volume of data in the project?
 
@@ -67,7 +67,7 @@ For some domains there might exist guides to estimate the data volume generated 
 * [Life Science data, proteomics: Numerical Compression Schemes for Proteomics Mass Spectrometry Data](https://doi.org/10.1074/mcp.O114.037879)
 
 **For data volumes >10TB**\
-If you will be using [Sigma2 computational resources](https://www.sigma2.no/), make yourself familiar with the user contribution model and application deadlines.
+If you will be using computational resources from {% tool "sigma2" %}, make yourself familiar with the user contribution model and application deadlines.
 
 In case you are planning computationally demanding data analysis, see also the compute power planning in the chapter [Processing and analysing data.](/pages/support_07_process_analyse)
 
@@ -93,31 +93,31 @@ Usually, your storage solution(s) will be selected from the solutions recommende
 
 Consult institutional storage guides and information about institutionally managed storage provided by the respective IT departments:
 
-* [NTNU Data storage guide](https://i.ntnu.no/wiki/-/wiki/English/Data+storage+guide)
-* [UiB Storage guide](https://www.uib.no/en/foremployees/153608/storage-guide)
-* [UiO Data storage guide](https://www.uio.no/english/services/it/security/lsis/storage-guide.html)
-* [UiT Research data portal - Processing and storage](https://en.uit.no/research/research-dataportal/art?p_document_id=729174)
+* {% tool "ntnu-data-storage-guide" %}
+* {% tool "uib-storage-guide" %}
+* {% tool "uio-data-storage-guide" %}
+* {% tool "uit-processing-storage-guide" %}
 
 Storage solution examples (non-exhaustive):
 
 * Local hardware
 * Institutionally managed cloud storage
     * Institutional OneDrive
-    * [EduCloud](https://www.uio.no/tjenester/it/forskning/plattformer/edu-research/) provided by UiO
+    * {% tool "educloud-research" %} provided by UiO
 * Institutionally managed data servers or network drives
 * Institutionally managed 'cold' storage (e.g. tape storage)
     * Temporarily storing data in 'cold storage' with longer access times can be a recommended solution for your project if you produce very large data volumes or if the project collects data over a long time period, but where the data will be analysed later. An issue to consider here is whether data in such a storage are quick and easy to access, or if access needs to be planned in advance.
 * Trusted research environments (TREs)
-    * [TSD](https://www.uio.no/tjenester/it/forskning/sensitiv/) provided by UiO
-    * [HUNT Cloud](https://about.hdc.ntnu.no/) provided by NTNU
-    * [SAFE](https://www.uib.no/en/foremployees/131011/safe) provided by UiB
+    * {% tool "tsd" %} provided by UiO
+    * {% tool "hunt-cloud" %} provided by NTNU
+    * {% tool "safe" %} provided by UiB
 * National storage infrastructures
-    * [Sigma2 services](https://www.sigma2.no/services-overview) such as NIRD
-    * [NELS](https://nels-docs.readthedocs.io/en/latest/) provided by ELIXIR Norway
+    * [Services](https://www.sigma2.no/services-overview) from {% tool "sigma2" %} such as NIRD
+    * {% tool "nels" %} provided by ELIXIR Norway
 * Scientific computing infrastructure
-    * [NREC](https://docs.nrec.no/intro.html) operated by UiB and UiO
-    * [Openstack at NTNU](https://www.ntnu.no/wiki/spaces/skyhigh/pages/93261214/Openstack+at+NTNU)
-    * [High-Performance Computing (HPC) resources](https://www.sigma2.no/service/high-performance-computing) provided by Sigma2
+    * {% tool "nrec" %} operated by UiB and UiO
+    * {% tool "openstack-ntnu" %}
+    * {% tool "sigma2-hpc" %} resources
 * Other cloud storage
     * E.g. Google Drive, Dropbox
 * Online version control services
@@ -132,10 +132,10 @@ While the general information security levels used at Norwegian higher education
 
 Please consult the institutional storage guides for details:
 
-* [NTNU Data storage guide](https://i.ntnu.no/wiki/-/wiki/English/Data+storage+guide)
-* [UiB Storage guide](https://www.uib.no/en/foremployees/153608/storage-guide)
-* [UiO Data storage guide](https://www.uio.no/english/services/it/security/lsis/storage-guide.html)
-* [UiT Research data portal - Processing and storage](https://en.uit.no/research/research-dataportal/art?p_document_id=729174)
+* {% tool "ntnu-data-storage-guide" %}
+* {% tool "uib-storage-guide" %}
+* {% tool "uio-data-storage-guide" %}
+* {% tool "uit-processing-storage-guide" %}
 
 If the chosen storage solution has access restrictions, describe who will have access and how access rights will be controlled.
 
@@ -160,7 +160,7 @@ If you use other solutions you should check the backup routines of theses soluti
 
 Relying on manual backup is not recommended but may be unavoidable in certain situations, for example during field work. If you are not relying on managed storage, an often suggested backup rule is 3-2-1.
 
-Here the explanation from [NFDI4Chem](https://www.nfdi4chem.de/3-2-1-rule/) [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+Here the [explanation](https://www.nfdi4chem.de/3-2-1-rule/) from {% tool "nfdi4chem" %} [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 > The 3-2-1 Backup Rule in Detail
 >
 > * Three Copies of the Data: In research, this means that in addition to the original data, create at least two additional copies. This redundancy ensures that even in the event of hardware failure or data corruption, backup versions are always available for access.
@@ -207,7 +207,7 @@ Different strategies for file naming and folder structure exist. Please consult 
 
 If applicable, indicate how you will approach the need to collaborate on editing documents by several contributors.
 
-Exchanging of files can pose version control and convergence challenges. Be aware that information security considerations also apply for sending files by email and e.g. [Sikt FileSender](https://sikt.no/tjenester/filesender). Consult your institutional storage guidance.
+Exchanging of files can pose version control and convergence challenges. Be aware that information security considerations also apply for sending files by email and e.g. {% tool "sikt-filesender" %}. Consult your institutional storage guidance.
 
 If shared documents are used, will the chosen solution allow contributors to edit the document simultaneously? How file access is handled needs to be clarified. Being aware of version control or snapshot frequency and recovery options if a mishap should happen, is recommended. Be aware that information security considerations also apply for using cloud storage solutions. Make sure to include this information under the question 'Where will you store data and documents'.
 

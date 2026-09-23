@@ -15,7 +15,9 @@ toc: true
 ## 1a - How will new data be collected or produced and/or how will existing data be re-used?
 
 <!--key information-->
-### [Science Europe DMP Guidance](https://doi.org/10.5281/zenodo.4915862 "Science Europe. (2021). Practical Guide to the International Alignment of Research Data Management - Extended Edition. https://doi.org/10.5281/zenodo.4915862") [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) - annotated
+### Science Europe DMP Guidance - annotated
+
+{% tool "science-europe-dmp-guidance" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 > 1a.1\
 Explain which methodologies or software will be used if new data are collected or produced.
@@ -63,7 +65,9 @@ Some existing data may be thought of as natural to re-use. If such data are deci
 - planning post-award, active phase
 " %}
 
-#### Coverage in [RDA Common Standard for maDMP](http://doi.org/10.15497/rda00039) [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+#### Coverage in RDA Common Standard for maDMP
+
+{% tool "rda-dmp-common-standard" %} [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
 [Properties in dataset]
 
@@ -85,7 +89,9 @@ Missing:
 <!--additional guidance from funders-->
 ### Other DMP guidance
 
-#### [Guidance from NFR](https://www.forskningsradet.no/en/research-policy-strategy/open-science/research-data/)
+#### Guidance from NFR
+
+{% tool "nfr-dmp-guidance" %}
 
 [Collection and/or use of existing data]
 
@@ -94,7 +100,9 @@ Missing:
 - Are there any limitations related to file format, licensed software or similar for (re)use of existing data?
 - Are there any reasons why existing data sources are not reused?
 
-#### [Horizon Europe DMP Template](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/how-to-participate/reference-documents?selectedProgrammePeriod=2021-2027&selectedProgramme=HORIZON)
+#### Horizon Europe DMP Template
+
+{% tool "horizon-europe-dmp-template" %}
 
 [1. Data Summary]
 
@@ -103,7 +111,9 @@ Missing:
 - To whom might your data be useful ('data utility'), outside your project?
 - What is the origin/provenance of the data, either generated or re-used?
 
-#### [FAIRsFAIR FAIR-Aware Additional Guidance](https://doi.org/10.5281/zenodo.6088215) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+#### FAIRsFAIR FAIR-Aware Additional Guidance
+
+{% tool "fair-aware-additional-guidance" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 - With respect to data provenance: Document the provenance for example by including it in the metadata record (e.g., using persistent identifiers), or via a linked provenance record (e.g., when you are familiar with using PROV-O, PAV, or VoID).
 - Supply at least the following information:
@@ -131,23 +141,31 @@ Missing:
 <!--recycling possible?-->
 ### Existing sources that can be reused
 
-#### [NTNU - DMP guidance](https://i.ntnu.no/wiki/-/wiki/English/DMP+guidance)
+#### NTNU - DMP guidance
+
+{% tool "ntnu-dmp-guidance" %}
 
 Are there any existing datasets you could reuse?
 Visit the research data topic page at NTNU Innsida to see a list of places to search for data. (link)
 
-#### [UiT - DMP guidance](https://en.uit.no/research/research-dataportal/art?p_document_id=726373)
+#### UiT - DMP guidance
+
+{% tool "uit-dmp-guidance" %}
 
 What standards and methods will be used for data collection/generating?
 Are there any existing data (internal or external) on the topic? If yes, how can they be integrated and reused in the project?
 
-#### [EasyDMP](https://www.sigma2.no/service/data-management-plan) [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+#### EasyDMP
+
+{% tool "easy-dmp" %} [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 
 **Data description and collection or reuse of existing data – this section covers how you plan to use or produce your project’s data including the amount of data you expect the project will produce or need access to.**
 
 Describe how you plan to collect new or use existing data – this should cover the methodologies and soYware that you plan to use and any constraints thedata are subject to. Also, include how you plan to document the provenance of the data. If data exists, please include a reason why the existing data is not sufficient.
 
-#### [SND - Checklist DMP](https://zenodo.org/records/6424769) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+#### SND - Checklist DMP
+
+{% tool "snd-dmp-checklist" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 [If you are going to collect new data, how will they be collected (questionnaires, interviews, observations, measurements, recordings, etc.), where, and during what period? Who will be responsible for the data collection? What resources will be needed during the collection process, in terms of staff, instruments, and software?]
  Why is this important? Data collection is a central, and often resource-heavy, part of the research process. By planning for how to collect the data, when they will be collected, and the scope of the data collection, you can assess and budget for various resources. If you pay consideration to this in good time, a reviewer can more easily understand what type of data that will be collected.
@@ -155,7 +173,9 @@ Describe how you plan to collect new or use existing data – this should cover 
 [Give a brief description of existing data in the field, i.e. data collected in previous research (including data from other researchers and research groups). If there are existing data, can they be reused in the project? How will you document the origin of existing data? If you cannot use existing data, enter the reason why.]
  Why is this important? You should include an overview of existing data in the DMP, as there could already be material that can be used to answer the research questions, or some of them, but also to make sure that you don’t duplicate a data collection. For a research funder, it may be relevant to know whether it’s possible to use existing data material. If there aren’t any existing data, it’s vital to explain the value of collecting a new data material. If you will be using both existing and new data, describe how you will combine them.
 
-#### [DMP Tuuli](https://zenodo.org/records/5242629) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+#### DMP Tuuli
+
+{% tool "dmptuuli-guidance" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 What kinds of data is your research based on? What data will be collected, produced or reused? What file formats will the data be in? Additionally, give a rough estimate of the size of the data produced/collected. (1.1)
 Briefly describe what types of data you are collecting or producing. In addition, explain what kinds of already existing data you will (re)use. List, for example, the types of texts, images, photographs, measurements, statistics, physical samples or codes.
@@ -166,7 +186,9 @@ Briefly describe what types of data you are collecting or producing. In addition
 ## 1b - What data (for example the kind, formats, and volumes) will be collected or produced?
 
 <!--key information-->
-### [Science Europe DMP Guidance](https://doi.org/10.5281/zenodo.4915862 "Science Europe. (2021). Practical Guide to the International Alignment of Research Data Management - Extended Edition. https://doi.org/10.5281/zenodo.4915862") [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) - annotated
+### Science Europe DMP Guidance - annotated
+
+{% tool "science-europe-dmp-guidance" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 > 1b.1\
 Give details on the kind of data: for example numeric (databases, spreadsheets), textual (documents), image, audio, video, and/or mixed media.
@@ -182,7 +204,7 @@ Justify the use of certain formats. For example, decisions may be based on staff
 > 1b.4\
 Give preference to open and standard formats as they facilitate sharing and long-term re-use of data (several repositories provide lists of such ‘preferred formats’).
 
-A list of preferred file formats for common data types are given by Data Archiving and Networked Services (DANS) at [https://dans.knaw.nl/en/file-formats/](https://dans.knaw.nl/en/file-formats/)
+A list of [preferred file formats](https://dans.knaw.nl/en/file-formats/) for common data types is given by Data Archiving and Networked Services ({% tool "dans" %}).
 
 Be aware that what is appropriate file formats may depend on the phase of the project. In the active phase both open and proprietary formats can be appropriate. In the medium-term storage open formats are to be preferred - beware e.g. the danger of license loss for proprietary software. For long-term preservation choose strictly open formats if possible, and conversion strategies should be described.
 
@@ -218,7 +240,9 @@ More precise numbers can be needed if shared with stakeholder, e.g. to apply for
 - planning post-award, active phase
 " %}
 
-#### Coverage in [RDA Common Standard for maDMP](http://doi.org/10.15497/rda00039) [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+#### Coverage in RDA Common Standard for maDMP
+
+{% tool "rda-dmp-common-standard" %} [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
 [Properties in dataset]
 
@@ -241,7 +265,9 @@ Missing:
 <!--additional guidance from funders-->
 ### Other DMP guidance
 
-#### [Guidance from NFR](https://www.forskningsradet.no/en/research-policy-strategy/open-science/research-data/)
+#### Guidance from NFR
+
+{% tool "nfr-dmp-guidance" %}
 
 [File types and format]
 
@@ -250,7 +276,9 @@ Missing:
 - On what basis are certain data formats chosen? For example, this may depend on expertise in specific formats, preference for open file formats is, standard formats accepted at data repositories, extensive use of specific formats in research communities or format given by equipment or software used.
 - What is the (estimated) volume of data to be stored during collection and analysis, archived and possibly long-term preserved? This can be stated as storage space (bytes), number of objects, files, rows and columns.
 
-#### [Horizon Europe DMP Template](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/how-to-participate/reference-documents?selectedProgrammePeriod=2021-2027&selectedProgramme=HORIZON)
+#### Horizon Europe DMP Template
+
+{% tool "horizon-europe-dmp-template" %}
 
 [1. Data Summary]
 
@@ -266,7 +294,9 @@ Missing:
 - In addition to the management of data, beneficiaries should also consider and plan for the management of other research outputs that may be generated or re-used throughout their projects. Such outputs can be either digital (e.g. software, workflows, protocols, models, etc.) or physical (e.g. new materials, antibodies, reagents, samples, etc.).
 - Beneficiaries should consider which of the questions pertaining to FAIR data above, can apply to the management of other research outputs, and should strive to provide sufficient detail on how their research outputs will be managed and shared, or made available for re-use, in line with the FAIR principles.
 
-#### [FAIRsFAIR FAIR-Aware Additional Guidance](https://doi.org/10.5281/zenodo.6088215) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+#### FAIRsFAIR FAIR-Aware Additional Guidance
+
+{% tool "fair-aware-additional-guidance" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 - With respect to data formats or file formats: Make data available in a file format that is accepted by your research community to enable data sharing, interoperability, and reuse, and by the repository to enable long- term preservation. When in doubt, check a couple of potentially relevant data repositories to find out what they expect, and include your findings in the DMP.
 - For guidance about how to search for repositories, see [6a - Who (for example role, position, and institution) will be responsible for data management (i.e. the data steward)?](6_responsibilities_resources)
@@ -293,11 +323,15 @@ Missing:
 <!--recycling possible?-->
 ### Existing sources that can be reused
 
-#### [NTNU - DMP guidance](https://i.ntnu.no/wiki/-/wiki/English/DMP+guidance)
+#### NTNU - DMP guidance
+
+{% tool "ntnu-dmp-guidance" %}
 
 Keep in mind whether the scale of the data will pose challenges when sharing or transferring data between sites; do you need to include additional costs? How will you address these challenges? If you have large volumes of data that need storage, please contact the IT department at NTNU. (link)
 
-#### [UiT - DMP guidance](https://en.uit.no/research/research-dataportal/art?p_document_id=726373)
+#### UiT - DMP guidance
+
+{% tool "uit-dmp-guidance" %}
 
 What kind of data will be collected/generated (e.g. observations, simulations, interviews)? What are the sources (e.g. corpora or other raw data)?
 
@@ -305,7 +339,9 @@ What type of data will be collected/generated (e.g. text, image, numerical data,
 
 What file format(s) will be used?
 
-#### [SIKT DMP](https://sikt.no/en/study-or-research/data-management-plan) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+#### SIKT DMP
+
+{% tool "sikt-dmp-guidance" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 Provide an estimate of the presumed size/scale of data.
 
@@ -313,17 +349,23 @@ Specify the file format(s) of the data collection. Please note that it is recomm
 
 Provide the name of the software/tool that will be used to process and analyze data.
 
-#### [EasyDMP](https://www.sigma2.no/data-planning) [![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)
+#### EasyDMP
+
+{% tool "easy-dmp" %} [![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)
 
 **Data description and collection or reuse of existing data – this section covers how you plan to use or produce your project’s data including the amount of data you expect the project will produce or need access to.**
 
 Describe how much data and the type of data you plan to collect or produce – this should include the type (e.g. databases, spreadsheets), the volume and formats you intend to use. You should justify your choice if the formats you intend to use are proprietary. The quantity of data should be in the amount of space required (e.g. in GigaBytes) or the number of files.
 
-#### [SND - Checklist DMP](https://zenodo.org/records/6424769) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+#### SND - Checklist DMP
+
+{% tool "snd-dmp-checklist" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 [Describe which type(s) of data that will be used in the project, and whether they will be generated, collected, or reused data. Also describe the scope, quantity and, if possible, the file format of the material.]
 
-#### [DMP Tuuli](https://zenodo.org/records/5242629) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+#### DMP Tuuli
+
+{% tool "dmptuuli-guidance" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 Categorise your data in a table or with a clear list, for example:
  A) previously collected existing data which is being reused in this project,

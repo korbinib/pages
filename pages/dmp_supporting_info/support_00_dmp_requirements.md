@@ -21,7 +21,7 @@ rdmkit:
 
 ## Institutional policies and guidelines
 
-DMP requirements, or calls for the use of DMPs, are commonly part of Open Science policies or guidelines for research data management. Here are links to current institutional policies of Norwegian Higher Education institutions. Currently, we have only included the partners of this DMP support project in the list. For other organisations, you can find an overview in the [RDM resources in Norway (RDMkit): Support services](https://rdmkit.elixir-europe.org/no_resources#support-services).
+DMP requirements, or calls for the use of DMPs, are commonly part of Open Science policies or guidelines for research data management. Here are links to current institutional policies of Norwegian Higher Education institutions. Currently, we have only included the partners of this DMP support project in the list. For other organisations, you can find an overview in the {% tool "rdmkit" %}: [RDM resources in Norway: Support services](https://rdmkit.elixir-europe.org/no_resources#support-services).
 
 * [NTNU Guidelines for policy for Open Science](https://i.ntnu.no/wiki/-/wiki/English/Guidelines+for+policy+for+Open+Science "accessed: 2025-03-04")
   > Research projects led by researchers at NTNU must have a data management plan that satisfies the requirements of any relevant funders. The data management plan should be set up early in the research project, and no later than six (6) months after commencement. As a minimum requirement, the data management plan should contain the core elements defined by Science Europe and describe the following:
@@ -53,7 +53,7 @@ DMP requirements, or calls for the use of DMPs, are commonly part of Open Scienc
 
 * [From 2023, Open Science is assessed in grant applications. While a DMP is usually written at a later stage, making oneself familiar with the assessment criteria is recommended.](https://www.forskningsradet.no/en/financing/application-process/assessment-open-science/ "accessed: 2024-09-09")
 
-* [The Research Council of Norway: Sharing research data (webpage)](https://www.forskningsradet.no/en/research-policy-strategy/open-science/research-data/ "accessed: 2024-10-25")
+* {% tool "nfr-dmp-guidance" %}
   > Requirements for data management plan in projects that manage data - excerpts from the linked to webpage:
   > * A good data management plan makes the research data easier to retrieve and understand for others, creates awareness of data security, costs and quality, makes the research reproducible and increases the potential for reuse. The data management plan should be a living document that is regularly updated throughout the life of the project.
   > * The requirement for a data management plan for projects receiving funding from the Research Council of Norway was introduced in 2018.
@@ -110,7 +110,7 @@ according to the recommended template for Horizon Europe projects (see below). W
   > * Open access is required as the default for research data under the principle ‘as open as possible, as closed as necessary’. [Examples provided for legitimate reasons to keep data closed]
   > * Research data in open access must be licensed under the latest available version of a Creative Commons Attribution International Public Licence (CC BY) requiring attribution of authorship, or a licence providing equivalent rights, or under a Creative Commons Public Domain Dedication (CC0) or equivalent (which waives any rights to the data).
 
-* [European Commission. (Version 5.0, 01 May 2025). Horizon Europe Programme Guide: Open Science](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/guidance/programme-guide_horizon_en.pdf "accessed: 2025-08-20")
+* {% tool "horizon-europe-programme-guide" %} (European Commission, version 5.0, 01 May 2025): Open Science
   > Chapter 17. Open Science - excerpts from the Programme Guide (p.42ff):
   > * Research data management (RDM) is mandatory in Horizon Europe for projects generating or reusing data. If you expect to generate or reuse data and/or other research outputs (except for publications), please see relevant details in the proposal template.
   > * For those work programmes that require the use of the European Open Science Cloud (EOSC) federated repositories, proposers should explicitly discuss the use of such repositories in their proposals.
@@ -138,7 +138,7 @@ according to the recommended template for Horizon Europe projects (see below). W
   > List of deliverables - footnote(page 45):
   > * You must include a data management plan (DMP) and a ‘plan for dissemination and exploitation including communication activities as distinct deliverables within the first 6 months of the project. The DMP will evolve during the lifetime of the project in order to present the status of the project's reflections on data management.
 
-* [European Commission. (Version 1.1, 01 April 2022). Template: EU grants - Data management plan (HE) (MS Word document)](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/report/data-management-plan_he_en.docx "accessed: 2025-08-20")
+* {% tool "horizon-europe-dmp-template" %}: [EU grants - Data management plan (HE), version 1.1, 01 April 2022 (MS Word document)](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/temp-form/report/data-management-plan_he_en.docx "accessed: 2025-08-20")
   > * A template for a DMP is provided under the reporting templates in the [Funding & Tenders Portal Reference Documents](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/how-to-participate/reference-documents)
   > * Aspects to be adressed are broadly in line with the requirements set forth in Science Europe’s Practical Guide to the International Alignment of Research Data Management (see Programme Guide p. 49 for details)
 

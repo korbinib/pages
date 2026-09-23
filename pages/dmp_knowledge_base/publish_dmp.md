@@ -14,11 +14,14 @@ toc: true
 ## Where to publish the DMP?
 
 <!--key information-->
-### [Science Europe Guidance](https://doi.org/10.5281/zenodo.4915862 "Science Europe. (2021). Practical Guide to the International Alignment of Research Data Management - Extended Edition. https://doi.org/10.5281/zenodo.4915862") [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) - annotated
+### Science Europe Guidance - annotated
+
+{% tool "science-europe-dmp-guidance" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
 >
 > not covered
 
-Best practice is to publish the DMP with a PID. This can be referred to (and from) when publishing papers, data sets and other outputs from the research project. Ideally, all versions of the DMP could be published, but at minimum the final version should be made available (i.e. when reporting the project). The research repository [Zenodo](https://zenodo.org/) is often used to publish DMPs, together with other research results. In Norway, The National Research Archive (Nasjonalt vitenarkiv, NVA) is [under development](https://sikt.no/tjenester/nasjonalt-vitenarkiv-nva), and this might also be a possible repository for DMP archiving and/or publication.
+Best practice is to publish the DMP with a PID. This can be referred to (and from) when publishing papers, data sets and other outputs from the research project. Ideally, all versions of the DMP could be published, but at minimum the final version should be made available (i.e. when reporting the project). The research repository {% tool "zenodo" %} is often used to publish DMPs, together with other research results. In Norway, the National Research Archive, {% tool "nva" %}, is [under development](https://sikt.no/tjenester/nasjonalt-vitenarkiv-nva), and this might also be a possible repository for DMP archiving and/or publication.
 
 {% include callout.html type="note" content="
 **Mappings**
@@ -38,7 +41,9 @@ Best practice is to publish the DMP with a PID. This can be referred to (and fro
 * planning post-award, active phase
 " %}
 
-#### Coverage in [RDA Common Standard for maDMP](http://doi.org/10.15497/rda00039) [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+#### Coverage in RDA Common Standard for maDMP
+
+{% tool "rda-dmp-common-standard" %} [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
 [Properties in dmp]
 
@@ -60,16 +65,23 @@ Missing:
 <!--additional guidance from funders-->
 ### Other DMP guidance
 
-#### [Guidance from NFR](https://www.forskningsradet.no/en/research-policy-strategy/open-science/research-data/)
+#### Guidance from NFR
+
+{% tool "nfr-dmp-guidance" %}
 
 [What a data management plan should include]\
 We also recommend assigning your data management plan a persistent identifier, such as a DOI. Several services for data management plans offer this.
 
-#### [Horizon Europe Program Guide  V5.1 – 15.09.2025](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/guidance/programme-guide_horizon_en.pdf)
->
-> A good practice regarding DMPs is to register them as a non-restricted public deliverables to make them openly accessible, unless legitimate reasons exist to keep them confidential. An additional good practice is to publish the DMP in specialised journals or publishing platforms such as [RIO](https://riojournal.com/) etc., or to deposit them in DMP-specific public repositories [...]. (p.48)
+#### Horizon Europe Program Guide V5.1 – 15.09.2025
 
-#### [FAIRsFAIR FAIR-Aware Additional Guidance](https://doi.org/10.5281/zenodo.6088215) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+{% tool "horizon-europe-programme-guide" %}
+
+>
+> A good practice regarding DMPs is to register them as a non-restricted public deliverables to make them openly accessible, unless legitimate reasons exist to keep them confidential. An additional good practice is to publish the DMP in specialised journals or publishing platforms such as {% tool "rio-journal" %} etc., or to deposit them in DMP-specific public repositories [...]. (p.48)
+
+#### FAIRsFAIR FAIR-Aware Additional Guidance
+
+{% tool "fair-aware-additional-guidance" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 * not covered
 
@@ -90,6 +102,8 @@ We also recommend assigning your data management plan a persistent identifier, s
 <!--recycling possible?-->
 ### Existing sources that can be reused
 
-#### [Open Science Toolbox](https://www.ntnu.no/ub/prosjekter/ostoolbox) [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+#### Open Science Toolbox
+
+{% tool "ntnu-open-science-toolbox" %} [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 
 Forskningsrådet og andre finansiører oppfordrer til åpen publisering av datahåndteringsplaner. Da planene endres underveis, kan det gjerne publiseres flere versjoner etter hvert som de oppdateres. Mange prosjekt publiserer ulike versjoner av sin datahåndteringsplan i arkiv som Zenodo.

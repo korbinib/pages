@@ -26,8 +26,8 @@ other:
 
 The DMP questionnaire is implemented in the DMP tool **Data Stewardship Wizard (DSW)**/ **FAIR Wizard** (DSW as software-as-a-service). It is available on the following instances:
 
-* Researchers at NTNU, UiB, UiO og UiT can use the pilot instance [FAIR Wizard Norway](https://norway.fair-wizard.com/). The direct links on this web resource are linking to this instance. For support, contact your [local research data support](/pages/support_00_local_disc).
-* Life Science Researchers at all Norwegian institutions can use the [DSW instance provided by ELIXIR Norway](https://norway.dsw.elixir-europe.org/). To use the template, follow the advanced setup instructions. For support, contact the [ELIXIR Norway helpdesk](https://elixir.no/research-support/).
+* Researchers at NTNU, UiB, UiO og UiT can use the pilot instance {% tool "fair-wizard-norway" %}. The direct links on this web resource are linking to this instance. For support, contact your [local research data support](/pages/support_00_local_disc).
+* Life Science Researchers at all Norwegian institutions can use the {% tool "dsw-elixir-norway" %} instance. To use the template, follow the advanced setup instructions. For support, contact the [ELIXIR Norway helpdesk](https://elixir.no/research-support/).
 * [Other FAIR Wizard and Data Stewardship Wizard instances in Norway](/dmp_wizard/)
 
 ## Start with a new DMP
@@ -61,7 +61,7 @@ For less complex projects:
 
 ### Advanced questionnaire setup
 
-Instead of starting with one of the pre-defined project templates, it is also possible to configure them and additional options based on the underlying knowledge model. Follow the instructions below if you are using the [ELIXIR Norway DSW instance](https://norway.dsw.elixir-europe.org/).
+Instead of starting with one of the pre-defined project templates, it is also possible to configure them and additional options based on the underlying knowledge model. Follow the instructions below if you are using the {% tool "dsw-elixir-norway" %} instance.
 
 To use one of the above described templates:
 
@@ -91,11 +91,11 @@ To update a project to the newest version of a knowledge model:
 1. The project migration can be triggered from the Project list or from the Project settings
 2. Go through the *Create Migration* dialogue. You can see the current Knowledge Model, its version and tags on the left hand side. Choose the newest version of the Knowledge Model, keeping the same tags. Click the *Create* button and go through the following dialogue.
 
-For more information, see the detailed [FAIR Wizard User Guide](https://guide.fair-wizard.com/en/production/applications/data-management-planner/projects/list/migration.html)
+For more information, see the detailed [user guide](https://guide.fair-wizard.com/en/production/applications/data-management-planner/projects/list/migration.html) of {% tool "data-stewardship-wizard" %}
 
 ## Fill out the questionnaire
 
-You will find a description of the core steps below. For more detailed descriptions, see the [instructional video](https://www.youtube.com/watch?v=XrI8qYtWSBw ) and the [user guidance](https://guide.ds-wizard.org/en/latest/application/projects/list/detail/questionnaire.html) by DSW.
+You will find a description of the core steps below. For more detailed descriptions, see the [instructional video](https://www.youtube.com/watch?v=XrI8qYtWSBw ) and the [user guidance](https://guide.ds-wizard.org/en/latest/application/projects/list/detail/questionnaire.html) of {% tool "data-stewardship-wizard" %}.
 
 Answering the questionnaire is done in three steps:
 
@@ -143,7 +143,7 @@ Functions for exporting the DMP and collaboration are found in the top navigatio
 
 ### Inviting contributors
 
-The 'Share'-button opens a dialogue to share the project (plan) with collaborators. Collaborators with an account on [FAIR Wizard Norway](https://norway.fair-wizard.com/), can be searched for by name and assigned rights (Viewer/ Commenter/ Editor/ Owner). In addition, link sharing (with reading/ commenting/ editing rights) can be enabled for example to share with external collaborators.
+The 'Share'-button opens a dialogue to share the project (plan) with collaborators. Collaborators with an account on {% tool "fair-wizard-norway" %}, can be searched for by name and assigned rights (Viewer/ Commenter/ Editor/ Owner). In addition, link sharing (with reading/ commenting/ editing rights) can be enabled for example to share with external collaborators.
 
 {% include image.html file="dsw_sharing.png" caption="Contributors can be invited individually or through link sharing and assigned reading, commenting or editing rights" alt="Screenshot of the 'Share'-dialogue." %}
 

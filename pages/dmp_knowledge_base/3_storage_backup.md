@@ -15,7 +15,9 @@ toc: true
 ## 3a - How will data and metadata be stored and backed up during the research process?
 
 <!--key information-->
-### [Science Europe DMP Guidance](https://doi.org/10.5281/zenodo.4915862 "Science Europe. (2021). Practical Guide to the International Alignment of Research Data Management - Extended Edition. https://doi.org/10.5281/zenodo.4915862") [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) - annotated
+### Science Europe DMP Guidance - annotated
+
+{% tool "science-europe-dmp-guidance" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 > 3a.1\
 Describe where the data will be stored and backed up during research activities and how often the backup will be performed. It is recommended to store data in least at two separate locations.
@@ -56,7 +58,9 @@ or
 - planning post-award, active phase
 " %}
 
-#### Coverage in [RDA Common Standard for maDMP](http://doi.org/10.15497/rda00039) [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+#### Coverage in RDA Common Standard for maDMP
+
+{% tool "rda-dmp-common-standard" %} [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
 [Properties in distribution]
 
@@ -79,14 +83,18 @@ Missing:
 <!--additional guidance from funders-->
 ### Other DMP guidance
 
-#### [Guidance from NFR](https://www.forskningsradet.no/en/research-policy-strategy/open-science/research-data/)
+#### Guidance from NFR
+
+{% tool "nfr-dmp-guidance" %}
 
 [Storage and data security during the project]
 
 - Where will (meta)data be stored and backed up throughout the project, and how often will this be performed? Storing data on laptops, typical external hard drives, USB-sticks or similar is not recommended due to less protection and greater risk of data being lost.
 - How should data be recovered in the event of an accident?
 
-#### [FAIRsFAIR FAIR-Aware Additional Guidance](https://doi.org/10.5281/zenodo.6088215) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+#### FAIRsFAIR FAIR-Aware Additional Guidance
+
+{% tool "fair-aware-additional-guidance" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 - not covered
 
@@ -109,12 +117,16 @@ Missing:
 <!--recycling possible?-->
 ### Existing sources that can be reused
 
-#### [NTNU - DMP guidance](https://i.ntnu.no/wiki/-/wiki/English/DMP+guidance)
+#### NTNU - DMP guidance
+
+{% tool "ntnu-dmp-guidance" %}
 
 - Describe where your data will be stored during the project period. We recommend using NTNU’s standard storage solutions (see NTNU storage guide). For specific information about procedures for back-up for the solution you choose for your project, contact the IT support at NTNU.
 - Storing data on laptops, external hard drives, or external storage devices such as USB sticks is not recommended. Be sure to consider information security as well as data integrity and accessibility.
 
-#### [UiT - DMP guidance](https://en.uit.no/research/research-dataportal/art?p_document_id=726373)
+#### UiT - DMP guidance
+
+{% tool "uit-dmp-guidance" %}
 
 - What are the procedures for storage and backup, and where will this be done?
 - Who is responsible for backup and restoring the data?
@@ -124,7 +136,9 @@ If collecting data in the field (out of office), how will the data be safely tra
 - What kind of folder structure and filename conventions will be used?
 - If collecting data in the field (out of office), how will the data be safely transferred from the field to the main storage unit?
 
-#### [SIKT DMP](https://sikt.no/en/study-or-research/data-management-plan) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+#### SIKT DMP
+
+{% tool "sikt-dmp-guidance" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 Security classification is a classification of data collections into classes based on the need for protection. Based on the security classification of each data package, you will get suggestions for secure data collection, storage and file transfer. There are four classes of security and confidentiality. These classes also apply to the processing and storage of research data.
 
@@ -140,13 +154,17 @@ Based on the outcome of the security classification carried out earlier in the p
 
 Based on the outcome of the security classification carried out earlier in the plan, you will be provided with a list of file transfer services as these are stated in the guidelines of your institution. If your institution has not published its policy in the Data Policy Manager, suggested guidelines are listed as default.
 
-#### [EasyDMP](https://www.sigma2.no/service/data-management-plan) [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+#### EasyDMP
+
+{% tool "easy-dmp" %} [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 
 **Storage and backup during the research process – covers how you plan to store your data and the back-up procedures you plan to use to ensure your data remains accessible.**
 
 Describe how you will store and back-up your data during your project - you should describe where your data will be stored and backed-up and the number of replicas. If you do not plan to use instututional or national storage you can refer to your project’s or group’s procedures for back-up and replication. You should consider robust, managed storage for your data (laptops and personal USB drives should be avoided).
 
-#### [SND - Checklist DMP](https://zenodo.org/records/6424769) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+#### SND - Checklist DMP
+
+{% tool "snd-dmp-checklist" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 Where and how will the data material be stored, and how do you make sure that it is securely stored? Will you do regular backups of the files? How will the data be recovered in the event of an incident?
 
@@ -154,7 +172,9 @@ Where and how will the data material be stored, and how do you make sure that it
 
 Losing a data material is something you want to avoid. Secure storage with regular backups of the data is essential. You may want to consult with the university’s/organization’s IT security office about storage and backups before you begin the data collection/project.]
 
-#### [DMP Tuuli](https://zenodo.org/records/5242629) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+#### DMP Tuuli
+
+{% tool "dmptuuli-guidance" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 Where will your data be stored, and how will the data be backed up? Describe where you will store and back up your data during your research project. Consider who will be responsible for backup and recovery. If there are several researchers involved, create a plan with your collaborators and ensure safe transfer between participants. Show that you are aware of the storing solutions provided by your organisation. Do not merely refer to IT services. In the end, you are responsible for your data, not the IT department or the organisation. Explain the methods for preserving and sharing your data after your research project has ended in more detail in Section 5.
 
@@ -170,7 +190,10 @@ Where will your data be stored, and how will the data be backed up? Describe whe
 ## 3b - How will data security and protection of sensitive data be taken care of during the research?
 
 <!--key information-->
-### [Science Europe DMP Guidance](https://doi.org/10.5281/zenodo.4915862) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) - annotated
+### Science Europe DMP Guidance - annotated
+
+{% tool "science-europe-dmp-guidance" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
 >
 > 3b.1\
 Explain how the data will be recovered in the event of an incident.
@@ -192,10 +215,10 @@ Explain which institutional data protection policies are in place.
 
 Consult institutional information security policies and storage guides:
 
-- [NTNU Data storage guide](https://i.ntnu.no/wiki/-/wiki/English/Data+storage+guide  "2024-03-05")
-- [UiB Storage guide](https://www.uib.no/en/foremployees/153608/storage-guide "2024-03-05")
-- [UiO Data storage guide](https://www.uio.no/english/services/it/security/lsis/storage-guide.html "2024-03-05")
-- [UiT Processing and storage](https://en.uit.no/research/research-dataportal/art?p_document_id=729174 "2024-03-05")
+- {% tool "ntnu-data-storage-guide" %}
+- {% tool "uib-storage-guide" %}
+- {% tool "uio-data-storage-guide" %}
+- {% tool "uit-processing-storage-guide" %}
 
 #### Science Europe DMP Evaluation Rubric: sufficiently addressed
 
@@ -224,7 +247,9 @@ Clearly explains:
 - planning post-award, active phase
 " %}
 
-#### Coverage in [RDA Common Standard for maDMP](http://doi.org/10.15497/rda00039) [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+#### Coverage in RDA Common Standard for maDMP
+
+{% tool "rda-dmp-common-standard" %} [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
 [Properties in security and privacy]
 
@@ -244,7 +269,9 @@ Missing:
 <!--additional guidance from funders-->
 ### Other DMP guidance
 
-#### [Guidance from NFR](https://www.forskningsradet.no/en/research-policy-strategy/open-science/research-data/)
+#### Guidance from NFR
+
+{% tool "nfr-dmp-guidance" %}
 
 [Storage and data security during the project]
 
@@ -252,14 +279,18 @@ Missing:
 - If applicable, how should data security and risk management be handled in relation to sensitive data, such as personal data and data that underlies trade secrets?
 - What institutional data protection policies apply?
 
-#### [Horizon Europe DMP Template](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/how-to-participate/reference-documents?selectedProgrammePeriod=2021-2027&selectedProgramme=HORIZON)
+#### Horizon Europe DMP Template
+
+{% tool "horizon-europe-dmp-template" %}
 
 [5. Data Security]
 
 - What provisions are or will be in place for data security (including data recovery as well as secure storage/archiving and transfer of sensitive data)?
 - Will the data be safely stored in trusted repositories for long term preservation and curation? (see also 5_sharing_preservation)
 
-#### [FAIRsFAIR FAIR-Aware Additional Guidance](https://doi.org/10.5281/zenodo.6088215) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+#### FAIRsFAIR FAIR-Aware Additional Guidance
+
+{% tool "fair-aware-additional-guidance" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 - not covered
 
@@ -287,30 +318,40 @@ Missing:
 <!--recycling possible?-->
 ### Existing sources that can be reused
 
-#### [NTNU - DMP Guidance](https://i.ntnu.no/wiki/-/wiki/English/DMP+guidance)
+#### NTNU - DMP Guidance
 
-Note that all data should be classified in order to choose the correct level of security and confidentiality. See Innsida for more information on how to classify research data. Also see [Sikresiden.no](https://www.sikresiden.no/en/preventive/securinginformation) for more information about information security.
+{% tool "ntnu-dmp-guidance" %}
+
+Note that all data should be classified in order to choose the correct level of security and confidentiality. See Innsida for more information on how to classify research data. Also see {% tool "sikresiden" %} for more [information about information security](https://www.sikresiden.no/en/preventive/securinginformation).
 
 **Relevant documents:**
 
 - [NTNU Policy for information security](https://i.ntnu.no/wiki/-/wiki/English/Policy+for+information+security)
-- [NTNU Storage Guide](https://i.ntnu.no/wiki/-/wiki/English/Data+storage+guide)
+- {% tool "ntnu-data-storage-guide" %}
 
-#### [UiT - DMP guidance](https://en.uit.no/research/research-dataportal/art?p_document_id=726373)
+#### UiT - DMP guidance
+
+{% tool "uit-dmp-guidance" %}
 
 Does your data include sensitive data? (If yes, also answer the questions below.)
 Are you going to collect informed consent to store and share the data? If so, how?
 How are you going to secure confidentiality and identity protection?
 
-#### [SIKT DMP](https://sikt.no/en/study-or-research/data-management-plan) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+#### SIKT DMP
+
+{% tool "sikt-dmp-guidance" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 State whether your project contains research on human subjects. As a main rule, you are obligated to inform the person(s) whose personal data you are going to collect. Read more about information and consent at Data Protection Services.
 
-#### [EasyDMP](https://www.sigma2.no/data-planning) [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+#### EasyDMP
+
+{% tool "easy-dmp" %} [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 
 If your project uses sensitive data, describe how you will take care of data protection and security - you should describe how access to your data will be controlled and who will be allowed access. You should describe how you plan to conform with your organisation’s data protection rules, how you will satisfy institutional data protection policies, the main risks and recovery procedures.
 
-#### [SND - Checklist DMP](https://doi.org/10.5281/zenodo.6424769) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+#### SND - Checklist DMP
+
+{% tool "snd-dmp-checklist" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 Refer to the information security guidelines and policies in your university/organization and define what implications they have. What information classification level does the data material have and what security measures are needed to protect the material? Who should have access to the project data during the project and how do you plan to protect the data from unauthorised access?
 
@@ -318,7 +359,9 @@ Refer to the information security guidelines and policies in your university/org
 
 Access to the data material must be restricted so that authorised people can access it, but it is protected from unauthorised access. Secure work and storage environments can include access restriction (e.g. passwords), encryption, and virus and access protection. You may need to contact your organization’s IT security office to make sure that you have addressed all questions regarding information security before the data collection begins.
 
-#### [DMP Tuuli](https://zenodo.org/doi/10.5281/zenodo.3629371) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+#### DMP Tuuli
+
+{% tool "dmptuuli-guidance" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 What legal issues are related to your data management? (For example, GDPR and other legislation affecting data processing).
 All types of research data involve questions of rights and legal and ethical issues. Demonstrate that you are aware of the relevant legislation related to your data processing. If you are handling personal or sensitive information, describe how you will ensure privacy protection and data anonymisation or pseudonymisation.

@@ -46,15 +46,15 @@ As work spaces usually will include some form of data storage, please add the wo
 
 Shared workspace examples (non-exhaustive):
 
-* [High-Performance Computing (HPC) resources](https://www.sigma2.no/service/high-performance-computing) provided by Sigma2
-* [NIRD Service Platform](https://www.sigma2.no/service/nird-service-platform) provided by Sigma2
-* [NeLS - Norwegian e-infrastructure for Life Science](https://nels.bioinfo.no/) provided by ELIXIR-NO
-* [educloud](https://research.educloud.no/) provided by UiO
-* [NREC](https://docs.nrec.no/intro.html) operated by UiB and UiO
-* [Openstack at NTNU](https://www.ntnu.no/wiki/spaces/skyhigh/pages/93261214/Openstack+at+NTNU)
-* [TSD (sensitive data)](https://www.uio.no/tjenester/it/forskning/sensitiv/) provided by UiO
-* [HUNT Cloud (sensitive data)](https://about.hdc.ntnu.no/) provided by NTNU
-* [SAFE (sensitive data)](https://www.uib.no/en/foremployees/131011/safe) provided by UiB
+* {% tool "sigma2-hpc" %} resources
+* {% tool "nird-service-platform" %} provided by Sigma2
+* {% tool "nels" %} provided by ELIXIR-NO
+* {% tool "educloud-research" %} provided by UiO
+* {% tool "nrec" %} operated by UiB and UiO
+* {% tool "openstack-ntnu" %}
+* {% tool "tsd" %} (sensitive data) provided by UiO
+* {% tool "hunt-cloud" %} (sensitive data) provided by NTNU
+* {% tool "safe" %} (sensitive data) provided by UiB
 
 #### Requirements for using the work space
 
@@ -62,7 +62,7 @@ Some resources may require you to apply for using the work space. Make sure to i
 
 Sigma2 issues calls for proposal twice a year. There is also a procedure to apply outside the regular call periods.
 
-* [Applying for Sigma2 e-infrastructure resources, e.g. NIRD](https://www.sigma2.no/apply-e-infrastructure-resources)
+* {% tool "sigma2" %}: [Applying for e-infrastructure resources, e.g. NIRD](https://www.sigma2.no/apply-e-infrastructure-resources)
 
 ### Do you need to plan compute solutions and capacity?
 
@@ -73,7 +73,7 @@ If you will use federated computing in you project this should be considered ear
 
 Further resources on federated data analysis:
 
-* [DataShield](https://www.datashield.org/)
+* {% tool "datashield" %}
 
 ### Will the data be converted to other file format(s) before archiving?
 
@@ -85,8 +85,8 @@ Ideally a format should be simple, text only, completely described, not restrict
 
 Resources on file formats and conversions:
 
-* [CESSDA DMEG: File formats and data conversions](https://dmeg.cessda.eu/Data-Management-Expert-Guide/3.-Process/File-formats-and-data-conversion)
-* [DataverseNO: Prepare your data - Preferred file formats](https://site.uit.no/dataverseno/deposit/prepare/#preferred-file-formats)
+* {% tool "cessda-dmeg" %}: [File formats and data conversions](https://dmeg.cessda.eu/Data-Management-Expert-Guide/3.-Process/File-formats-and-data-conversion)
+* {% tool "dataverseno" %}: [Prepare your data - Preferred file formats](https://site.uit.no/dataverseno/deposit/prepare/#preferred-file-formats)
 
 ### Will data processing or analysis alter metadata or produce additional metadata?
 
@@ -105,24 +105,24 @@ In some cases data processing will affect e.g. privacy and such data security. F
 
 Resources on data anonymisation:
 
-* [Research Data Alliance Norway (NO-RDA): Veileder for deling av forskningsdata med personopplysninger *Norwegian only*](https://doi.org/10.18711/j7pc-7883){:lang="no"}
-* [CESSDA DMEG: Anonymisation](https://dmeg.cessda.eu/Data-Management-Expert-Guide/5.-Protect/Anonymisation)
-* [Datatilsynet: A guide to the anonymisation of personal data (2015)](https://www.datatilsynet.no/link/2e642d84d9214490866a297a71a44c78.aspx/download)
-* [EDPB Guidelines 02/2026 on Pseudonymisation](https://www.edpb.europa.eu/public-consultations/guidelines-012025-on-pseudonymisation_en "2026-07-30")
-* [Amnesia anonymisation tool by OpenAire](https://amnesia.openaire.eu/)
+* {% tool "no-rda-personal-data-guide" %} *Norwegian only*
+* {% tool "cessda-dmeg" %}: [Anonymisation](https://dmeg.cessda.eu/Data-Management-Expert-Guide/5.-Protect/Anonymisation)
+* {% tool "datatilsynet-anonymisation-guide" %}
+* {% tool "edpb-pseudonymisation-guidelines" %}
+* {% tool "amnesia" %}
 
 ### Will you handle different versions of files or documents?
 
 Being able to track versions of files or documents helps to understand the history of changes and why something was done in a specific way. This contributes to making data processing and analysis reproducible. Being able to review and possibly restore previous versions is another aspect, particularly in collaborative projects with simultaneous changes. Approaches to version control range from establishing routines e.g. for file naming to using version control systems such as git.
 
-Version history and different sets of data might be especially important, if you are training AI-models with different datasets. You might want to consider to use [git-annex](https://git-annex.branchable.com/), [git-lfs](https://git-lfs.com/) or more specialized systems for this purpose for larger datasets.
+Version history and different sets of data might be especially important, if you are training AI-models with different datasets. You might want to consider to use {% tool "git-annex" %}, {% tool "git-lfs" %} or more specialized systems for this purpose for larger datasets.
 
 Resources on version control:
 
-* [RDMkit: Data organisation - How do you manage file versioning?](https://rdmkit.elixir-europe.org/data_organisation#how-do-you-manage-file-versioning)
-* [The Turing Way: Version Control](https://the-turing-way.netlify.app/reproducible-research/vcs.html)
-* [The Turing Way: Version Control for Data](https://the-turing-way.netlify.app/reproducible-research/vcs/vcs-data.html)
-* [Software Carpentry: Version Control with Git](https://swcarpentry.github.io/git-novice/)
+* {% tool "rdmkit" %}: [Data organisation - How do you manage file versioning?](https://rdmkit.elixir-europe.org/data_organisation#how-do-you-manage-file-versioning)
+* {% tool "the-turing-way" %}: [Version Control](https://the-turing-way.netlify.app/reproducible-research/vcs.html)
+* {% tool "the-turing-way" %}: [Version Control for Data](https://the-turing-way.netlify.app/reproducible-research/vcs/vcs-data.html)
+* {% tool "software-carpentry" %}: [Version Control with Git](https://swcarpentry.github.io/git-novice/)
 
 ### Will you monitor data integrity once it has been collected?
 
@@ -136,8 +136,8 @@ Examples of procedures to monitor data quality:
 
 Further reading:
 
-* [RDMkit: Data quality](https://rdmkit.elixir-europe.org/data_quality.html)
-* [FAIRCookbook: How to create checksum files](https://faircookbook.elixir-europe.org/content/recipes/findability/checksum-create.html)
+* {% tool "rdmkit" %}: [Data quality](https://rdmkit.elixir-europe.org/data_quality.html)
+* {% tool "fair-cookbook" %}: [How to create checksum files](https://faircookbook.elixir-europe.org/content/recipes/findability/checksum-create.html)
 
 ### Will you be integrating or linking data from different origins or different types of data?
 
@@ -147,7 +147,7 @@ If possible, it is recommended to use of a common ontology to integrate data fro
 
 Further reading:
 
-* [FAIRCookbook: Interlinking data using mappings](https://w3id.org/faircookbook/FCB016)
+* {% tool "fair-cookbook" %}: [Interlinking data using mappings](https://w3id.org/faircookbook/FCB016)
 * [Wikipedia: Linked data](https://en.wikipedia.org/wiki/Linked_data)
 
 ### Does your computational approach require validation of results?

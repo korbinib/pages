@@ -16,7 +16,9 @@ toc: true
 
 <code>(Pay attention to metadata in project versus when archiving)</code>
 <!--key information-->
-### [Science Europe DMP Guidance](https://doi.org/10.5281/zenodo.4915862 "Science Europe. (2021). Practical Guide to the International Alignment of Research Data Management - Extended Edition. https://doi.org/10.5281/zenodo.4915862") [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) - annotated
+### Science Europe DMP Guidance - annotated
+
+{% tool "science-europe-dmp-guidance" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 > 2a.1\
 Indicate which metadata will be provided to help others identify and discover the data.
@@ -71,7 +73,9 @@ For more advanced use, use of workflow systems, reproducible deployment and buil
 - planning post-award, active phase, archiving/publishing phase
 " %}
 
-#### Coverage in [RDA Common Standard for maDMP](http://doi.org/10.15497/rda00039) [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+#### Coverage in RDA Common Standard for maDMP
+
+{% tool "rda-dmp-common-standard" %} [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
 [Properties in dataset]
 
@@ -90,7 +94,9 @@ For more advanced use, use of workflow systems, reproducible deployment and buil
 <!--additional guidance from funders-->
 ### Other DMP guidance
 
-#### [Guidance from NFR](https://www.forskningsradet.no/en/research-policy-strategy/open-science/research-data/)
+#### Guidance from NFR
+
+{% tool "nfr-dmp-guidance" %}
 
 [Documentation, metadata, and data quality]
 
@@ -98,7 +104,9 @@ For more advanced use, use of workflow systems, reproducible deployment and buil
 - What metadata standards will be used? Examples could be DDI, TEI, MARC, CMDI.
 - How will data be organized throughout the project? This can be version control, file structure, conventions for file naming, etc.
 
-#### [Horizon Europe DMP Template](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/how-to-participate/reference-documents?selectedProgrammePeriod=2021-2027&selectedProgramme=HORIZON)
+#### Horizon Europe DMP Template
+
+{% tool "horizon-europe-dmp-template" %}
 
 [2.1 Making data findable, including provisions for metadata]
 
@@ -118,7 +126,9 @@ For more advanced use, use of workflow systems, reproducible deployment and buil
 
 - How will you provide documentation needed to validate data analysis and facilitate data re-use (e.g. readme files with information on methodology, codebooks, data cleaning, analyses, variable definitions, units of measurement, etc.)?
 
-#### [FAIRsFAIR FAIR-Aware Additional Guidance](https://doi.org/10.5281/zenodo.6088215) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+#### FAIRsFAIR FAIR-Aware Additional Guidance
+
+{% tool "fair-aware-additional-guidance" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 - With respect to the metadata standards: Find a suitable community- endorsed metadata standard in metadata registries (e.g., RDA, DCC). Preferably use domain and discipline- specific repositories to deposit your data in when using community- endorsed metadata standards (use Re3data to find a suitable repository).
 - Confer with your local research data management specialist to determine the best metadata standard to use when no community-endorsed metadata standards are developed in your domain.
@@ -148,7 +158,9 @@ For more advanced use, use of workflow systems, reproducible deployment and buil
 <!--recycling possible?-->
 ### Existing sources that can be reused
 
-#### [NTNU - DMP guidance](https://i.ntnu.no/wiki/-/wiki/English/DMP+guidance)
+#### NTNU - DMP guidance
+
+{% tool "ntnu-dmp-guidance" %}
 
 What information is necessary for future users (including your future self) to find and understand the data?
 Tip: Read Making a Research Project Understandable: Guide for data documentation (Fuchs & Kuusniemi 2018).
@@ -161,7 +173,9 @@ A common metadata standard is Dublin Core, which is a list of 15 standardized el
 
 Also indicate how the data will be organised during the project, mentioning for example conventions, version control, and folder structures. Consistent, well-ordered research data will be easier to find, understand, and re-use.
 
-#### [UiT - DMP guidance](https://en.uit.no/research/research-dataportal/art?p_document_id=726373)
+#### UiT - DMP guidance
+
+{% tool "uit-dmp-guidance" %}
 
 How will the data be documented so that they are comprehensible and reusable for yourself and others also in the long term?
 (According to best practice, research data should be documented in a ReadMe file which explains column headings, abbreviations etc.)
@@ -173,7 +187,9 @@ What standards and methods will be used for data collection/generating?
 
 What is the expected file size for the data?
 
-#### [SIKT DMP](https://sikt.no/en/study-or-research/data-management-plan) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+#### SIKT DMP
+
+{% tool "sikt-dmp-guidance" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 Metadata is data about data, i.e. information that describes other information through a set of attributes. Note that using a standard structures information in machine-readable form, which increases the visibility and retrievability of your data in the future. The RDA (Research Data Alliance) has an overview of both general and subject-specific metadata standards that can be applied to research data
 
@@ -182,18 +198,24 @@ You can find examples of guidelines and procedures for naming conventions at Cam
 
 Describe other measures and processes that are implemented to document collection methods and processes during the project. If you do not intend to use a metadata standard, or there are no relevant metadata standards tailored to your research, describe what other strategies (e.g. whether you will use free-text documents, code syntaxes, etc.) will be applied to document the data.
 
-#### [EasyDMP](https://www.sigma2.no/service/data-management-plan) [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+#### EasyDMP
+
+{% tool "easy-dmp" %} [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 
 **Documentation and data quality – covers how the data will be described (ie what metadata standards are used to describe the data) and how you will measure and record the quality of your data.**
 
 Describe how you will organise and document your data – this should include what metadata standards you plan to use, what data will be covered and how the arrangement of your data will help others to find and use your data. You should also describe any addiDonal documentation (such as electronic logbooks and user-guides or examples of how to use the data), how it will be captured and where it will be stored.
 
-#### [SND - Checklist DMP](https://zenodo.org/records/6424769) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+#### SND - Checklist DMP
+
+{% tool "snd-dmp-checklist" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 Will the project use any established terminologies, ontologies, standards, or similar, to describe and document the material? Which ones? If you create your own terminology, will it be mapped against established terminologies?
 Why is this important? Many scientific disciplines have established terminologies, ontologies, and vocabularies (e.g. MeSH, ISCED, AAT, and ELSST) that can be used to categorize and document data materials. There are various standards that are recommended to follow (e.g. ISO 8601 for date, time, and time intervals). The use of standards and established terminologies simplifies the communication between people who belong to the same scientific field but can also make it easier to find material in, for example, journals. Sometimes, it may be necessary to create project-specific terminology lists if the existing ones aren’t sufficient or suited for the project. If you create a project-specific list, you should do a mapping, where you show which terms that mean exactly or almost the same thing as in other lists, but also which terms that are unique for your list. Mapping terms against other terminologies will improve the findability of the data material.
 
-#### [DMP Tuuli](https://zenodo.org/records/5242629) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+#### DMP Tuuli
+
+{% tool "dmptuuli-guidance" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 How will you document your data in order to make the data findable, accessible, interoperable and re-usable for you and others? What kind of metadata standards, README files or other documentation will you use to help others to understand and use your data?
 Data documentation enables data sets and files to be discovered, used and properly cited by other users (human or computer). Without sufficient documentation the data cannot be reused.
@@ -212,7 +234,9 @@ Documentation includes essential information regarding the data, for example a) 
 ## 2b - What data quality control measures will be used?
 
 <!--key information-->
-### [Science Europe DMP Guidance](https://doi.org/10.5281/zenodo.4915862 "Science Europe. (2021). Practical Guide to the International Alignment of Research Data Management - Extended Edition. https://doi.org/10.5281/zenodo.4915862") [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) - annotated
+### Science Europe DMP Guidance - annotated
+
+{% tool "science-europe-dmp-guidance" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 > 2b.1\
 Explain how the consistency and quality of data collection will be controlled and documented. This may include processes such as calibration, repeated samples or measurements, standardised data capture, data entry validation, peer review of data, or representation with controlled vocabularies.
@@ -242,7 +266,9 @@ At a conceptual level, data quality approaches and standards are described in th
 - planning post-award, active phase
 " %}
 
-#### Coverage in [RDA Common Standard for maDMP](http://doi.org/10.15497/rda00039) [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+#### Coverage in RDA Common Standard for maDMP
+
+{% tool "rda-dmp-common-standard" %} [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
 [Properties in dataset]
 
@@ -252,14 +278,18 @@ At a conceptual level, data quality approaches and standards are described in th
 <!--additional guidance from funders-->
 ### Other DMP guidance
 
-#### [Guidance from NFR](https://www.forskningsradet.no/en/research-policy-strategy/open-science/research-data/)
+#### Guidance from NFR
+
+{% tool "nfr-dmp-guidance" %}
 
 [Documentation, metadata, and data quality]
 
 - Is there other documentation necessary to facilitate reuse? It can be description of methodology, information about analysis and protocols, definitions of variables, electronic lab books, code books, readme.txt files, etc.
 - How is reliability and quality of the data controlled and documented? This can include processes such as calibration of measuring instruments, repeated measurements and samples, standardized data capture, validation of data entry, peer review of data or use of controlled vocabulary.
 
-#### [Horizon Europe DMP Template](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/how-to-participate/reference-documents?selectedProgrammePeriod=2021-2027&selectedProgramme=HORIZON)
+#### Horizon Europe DMP Template
+
+{% tool "horizon-europe-dmp-template" %}
 
 [2.1 Making data findable, including provisions for metadata]
 
@@ -274,7 +304,9 @@ At a conceptual level, data quality approaches and standards are described in th
 
 - Describe all relevant data quality assurance processes
 
-#### [FAIRsFAIR FAIR-Aware Additional Guidance](https://doi.org/10.5281/zenodo.6088215) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+#### FAIRsFAIR FAIR-Aware Additional Guidance
+
+{% tool "fair-aware-additional-guidance" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 - not covered
 
@@ -294,36 +326,48 @@ At a conceptual level, data quality approaches and standards are described in th
 <!--recycling possible?-->
 ### Existing sources that can be reused
 
-#### [NTNU - DMP Guidance](https://i.ntnu.no/wiki/-/wiki/English/DMP+guidance)
+#### NTNU - DMP Guidance
+
+{% tool "ntnu-dmp-guidance" %}
 
 How will the consistency and quality of data collection be controlled and documented?
  This may include processes such as calibration, repeated samples or measurements,
  standardised data capture, data entry validation, peer review of data, or representation with controlled vocabularies.
 
-#### [UiT - DMP guidance](https://en.uit.no/research/research-dataportal/art?p_document_id=726373)
+#### UiT - DMP guidance
+
+{% tool "uit-dmp-guidance" %}
 
 When will the data be collected/generated?
 Is there need for extra hardware or software?
 Is there need for special expertise for collecting/generating data?
 
-#### [SIKT DMP](https://sikt.no/en/study-or-research/data-management-plan) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+#### SIKT DMP
+
+{% tool "sikt-dmp-guidance" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 Examples of measures to control and ensure data quality may be the use of standardized methods and protocols to capture observations; checking precision and calibration of instruments; quality-check equipment to be used for audio or video recording; make multiple measurements, observations or samples; use standardized interview protocols and/or computer-assisted software when conducting interviews; and using standardized and consistent procedures when digitizing or transcribing data.
 
-#### [EasyDMP](https://www.sigma2.no/data-planning) [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+#### EasyDMP
+
+{% tool "easy-dmp" %} [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 
 **Documentation and data quality – covers how the data will be described (ie what metadata standards are used to describe the data) and how you will measure and record the quality of your data.**
 
 Describe how you will control the consistency and quality of your data – this should include for example, calibration processes or control samples, data entry validation, peer-review of data samples etc.
 
-#### [SND - Checklist DMP](https://doi.org/10.5281/zenodo.6424769) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+#### SND - Checklist DMP
+
+{% tool "snd-dmp-checklist" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 [Will the project use any established terminologies, ontologies, standards, or similar, to describe and document the material? Which ones? If you create your own terminology, will it be mapped against established terminologies?]
 **Why is this important?**
 
  Many scientific disciplines have established terminologies, ontologies, and vocabularies (e.g. MeSH, ISCED, AAT, and ELSST) that can be used to categorize and document data materials. There are various standards that are recommended to follow (e.g. ISO 8601 for date, time, and time intervals). The use of standards and established terminologies simplifies the communication between people who belong to the same scientific field but can also make it easier to find material in, for example, journals. Sometimes, it may be necessary to create project-specific terminology lists if the existing ones aren’t sufficient or suited for the project. If you create a project-specific list, you should do a mapping, where you show which terms that mean exactly or almost the same thing as in other lists, but also which terms that are unique for your list. Mapping terms against other terminologies will improve the findability of the data material.
 
-#### [DMP Tuuli](https://zenodo.org/records/5242629) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+#### DMP Tuuli
+
+{% tool "dmptuuli-guidance" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 How will you document your data in order to make the data findable, accessible, interoperable and re-usable for you and others? What kind of metadata standards, README files or other documentation will you use to help others to understand and use your data?
 
@@ -336,4 +380,4 @@ Documentation includes essential information regarding the data, for example a) 
 - Describe all the types of documentation (README files, metadata standards, vocabularies etc.) you will provide to help secondary users to understand and reuse your data. Repositories often require the use of a specific metadata standard. Check whether a discipline-specific metadata schema or standard exists that can be adopted.
 - Consider how the data will be organised during the project. Describe, for example, your file-naming conventions, version control and folder structure.
 - Use research instruments, which create standardised metadata formats automatically.
-- Identify the types of information that should be captured to enable other researchers to discover, access, interpret, use and cite your data. See for example: [Qvain requirements](https://www.fairdata.fi/en/user-guides/qvain-user-guide/#QvainDataset)
+- Identify the types of information that should be captured to enable other researchers to discover, access, interpret, use and cite your data. See for example the [dataset requirements](https://www.fairdata.fi/en/user-guides/qvain-user-guide/#QvainDataset) of {% tool "qvain" %}.

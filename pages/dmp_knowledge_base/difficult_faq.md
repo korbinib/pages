@@ -14,14 +14,14 @@ toc: true
 
 ### Where can a DMP be published?
 
-* [Zenodo](https://zenodo.org/) is an agnostic research archive (operated by CERN) which allows you to share all sorts of research outputs including data management plans. Zenodo also allows versioning and will create a unique DOI for your DMP versions.
-* In Norway, [The National Research Archive (Nasjonalt vitenarkiv, NVA)](https://nva.sikt.no/) is under development, and this might also be a possible repository for DMP archiving and/or publication.
+* {% tool "zenodo" %} is an agnostic research archive (operated by CERN) which allows you to share all sorts of research outputs including data management plans. Zenodo also allows versioning and will create a unique DOI for your DMP versions.
+* In Norway, the National Research Archive, {% tool "nva" %}, is under development, and this might also be a possible repository for DMP archiving and/or publication.
 
 ### Who will evaluate my DMP?
 
 Practices for DMP evaluation (first draft/as part of the final reporting) are still under establishment and routines may vary between different research funders and institutions. DMP evaluation may be carried out as part of administrative routines, as part of the scientific proposal evaluation, or by designated data management experts.
 
-Science Europe, an organisation of European funders has created a [rubric for reviewers](https://scienceeurope.org/media/22hpslfl/se-rdm-template-5-guidance-on-the-evaluation-of-data-management-plans.docx) on minimal DMP requirements.
+Science Europe, an organisation of European funders has created a rubric for reviewers on minimal DMP requirements: {% tool "science-europe-dmp-evaluation-rubric" %}.
 
 In the Horizon Europe funding scheme, a brief outline of data management (1-page DMP) is required at proposal stage and included the scientific proposal evaluation.
 
@@ -32,11 +32,11 @@ In the Horizon Europe funding scheme, a brief outline of data management (1-page
 
 Reading through different DMPs can be an useful exercise. Keep in mind that not all public DMPs are quality-controlled.
 
-* [Curated collection of Horizon 2020 DMPs from University of Vienna](https://phaidra.univie.ac.at/search#?page=1&pagesize=10&collection=o:1140797)
-* [DMP catalogue from LIBER Europe](https://libereurope.eu/working-group/research-data-management/plans/)
-* [Example DMPs and guidance from Digital Curation Centre](https://www.dcc.ac.uk/resources/data-management-plans/guidance-examples)
-* [Public DMPs from Argos OpenAIRE](https://argos.openaire.eu/explore-plans)
-* [Search Zenodo for DMPs](https://zenodo.org/)
+* {% tool "univie-h2020-dmps" %}
+* {% tool "liber-dmp-catalogue" %}
+* {% tool "dcc" %}: [Example DMPs and guidance](https://www.dcc.ac.uk/resources/data-management-plans/guidance-examples)
+* {% tool "argos" %}: [Public DMPs](https://argos.openaire.eu/explore-plans)
+* Search {% tool "zenodo" %} for DMPs
 
 ## Questions on level of the DMP
 
@@ -48,13 +48,16 @@ The DMP should be updated as the project develops and decisions taken, it should
 
 ### I need a 1-page DMP for a Horizon Europe application
 
-#### [European Commission. (2021, updated 2023). Horizon Europe Programme Guide: Evaluation of open science practices p.42ff](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/guidance/programme-guide_horizon_en.pdf "2024-09-12")
+#### European Commission. (2021, updated 2023). Horizon Europe Programme Guide: Evaluation of open science practices p.42ff
+
+{% tool "horizon-europe-programme-guide" %}
+
 >
 > * Proposers will have to provide concrete information on how they plan to comply with the mandatory open science practices. Failure to sufficiently address this, will result in a lower evaluation score. A clear explanation of how they will adopt recommended practices, as appropriate for their projects, will result in a higher evaluation score. [page 42]
 > * Under the ‘Excellence’ part of their proposals, in the section on methodology, proposers should describe how open science practices (mandatory and recommended, as appropriate) are implemented as an integral part of the methodology and show how their implementation is adapted to the nature of their work, therefore increasing the chances of the project delivering on its objectives. Information relevant to the specific area of the proposal should be provided in no more than one page. If open science practices are not applicable to the proposal, justifications should be provided so that, if evaluators agree, open science will not be taken into consideration in the evaluation. Additionally, proposers generating or reusing data should outline in a maximum of one (additional) page their plans for data management. [page 42]
 > * Research data management (RDM): RDM is mandatory in Horizon Europe for projects generating or reusing data. If you expect to generate or reuse data and/or other research outputs (except for publications), you are required to outline in a maximum of one page how these will be managed. Further details on this are provided in the proposal template in the relevant section on open science. A full data management plan (DMP) is not required at submission stage.(...) [page 43]
 
-See also the [Horizon Europe FAQ: Under Horizon Europe, does a Data Management Plan (DMP) need to be included as part of the proposal?](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/support/faq/19539 "2024-09-12") and the [OpenAIRE Guides for Researchers: How to comply with Horizon Europe mandate for research data management](https://www.openaire.eu/how-to-comply-with-horizon-europe-mandate-for-rdm "2024-09-12").
+See also the [Horizon Europe FAQ: Under Horizon Europe, does a Data Management Plan (DMP) need to be included as part of the proposal?](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/support/faq/19539 "2024-09-12") and the [guide on how to comply with the Horizon Europe mandate for research data management](https://www.openaire.eu/how-to-comply-with-horizon-europe-mandate-for-rdm "2024-09-12") from {% tool "openaire" %}.
 
 Researchers and research advisors can be referred to the section [Considerations pre-start/pre-award.](/pages/support_00_planning_considerations)
 
@@ -79,19 +82,19 @@ Relevant literature:
 
 ### I feel it is too much work to prepare my data for archiving in a domain-specific archive
 
-Subject-specific (discipline-specific, domain-specific) repositories are the first choice to ensure data will be reusable in your research community, as metadata follow domain standards. Comparison between datasets or reuse at large scale (e.g. meta-analysis) is easiest if subject-specific repositories are used. [Re3data](https://www.re3data.org/) and [FAIRsharing](https://fairsharing.org/) are curated registries and can help identifying suitable subject-specific repositories.
+Subject-specific (discipline-specific, domain-specific) repositories are the first choice to ensure data will be reusable in your research community, as metadata follow domain standards. Comparison between datasets or reuse at large scale (e.g. meta-analysis) is easiest if subject-specific repositories are used. {% tool "re3data" %} and {% tool "fairsharing" %} are curated registries and can help identifying suitable subject-specific repositories.
 
 Research data repositories commonly have guides/help-pages which makes it easier for you to prepare your data before submitting them to the repository. See if the repository you are submitting to has such a guide. Familiarizing yourself with such a guide early on, such as when drafting up a DMP, makes it easier for you to plan which metadata needs to be gathered in order for you to be able to submit to your repository of choice.
 
 ### What format should I store my research data in?
 
-You should consider a format which is common to the research discipline you are working in, which also adheres to [Open Science standards.](https://opendatahandbook.org/guide/en/appendices/file-formats/)
+You should consider a format which is common to the research discipline you are working in, which also adheres to Open Science standards (see {% tool "open-data-handbook" %}: [File formats](https://opendatahandbook.org/guide/en/appendices/file-formats/)).
 
 ### What metadata should I consider collecting in my research project?
 
 If you choose to share your data in a long term archive, it is highly likely this archive has a set of guidelines, wherein the necessary metadata are described. Making yourself familiar with relevant metadata schemes early in the project is recommended.
 
-If you are unsure about which metadata to collect, a minimal set is provided in [The Dublin Core Metadata standard](https://www.dublincore.org/), which originally composed of a [collection of 15 "essential" terms](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#section-3).
+If you are unsure about which metadata to collect, a minimal set is provided in the {% tool "dublincore" %} metadata standard, which originally composed of a [collection of 15 "essential" terms](https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#section-3).
 
 ## Questions on research ethics & restrictions to data sharing
 
@@ -125,15 +128,15 @@ Institutional resources on IPR:
 
 Useful resources:
 
-* [Research Data Alliance Norway (NO-RDA): Veileder for deling av forskningsdata med personopplysninger *Norwegian only*](https://doi.org/10.18711/j7pc-7883){:lang="no"}
-* [Datatilsynet: A guide to the anonymisation of personal data (2015)](https://www.datatilsynet.no/link/2e642d84d9214490866a297a71a44c78.aspx/download)
-* [EDPB Guidelines 02/2026 on Pseudonymisation](https://www.edpb.europa.eu/public-consultations/guidelines-012025-on-pseudonymisation_en "2026-07-30")
-* [researchdata.se (SE): Data containing personal information - FAQ and common misconceptions](https://researchdata.se/en/manage-data/data-containing-personal-information/frequently-asked-questions-and-common "2026-07-30")
+* {% tool "no-rda-personal-data-guide" %} *Norwegian only*
+* {% tool "datatilsynet-anonymisation-guide" %}
+* {% tool "edpb-pseudonymisation-guidelines" %}
+* {% tool "researchdata-se" %}: [Data containing personal information - FAQ and common misconceptions](https://researchdata.se/en/manage-data/data-containing-personal-information/frequently-asked-questions-and-common "2026-07-30")
 * [FORS (CH): Data anonymisation: legal, ethical, and strategic considerations](https://doi.org/10.24449/FG-2020-00011)
 
 Recent developments:
 
-* [EDPB Guidelines 02/2026 on Anonymisation (open for consultation until 10/2026)](https://www.edpb.europa.eu/public-consultations/guidelines-022026-on-anonymisation_en#no-back "2026-07-30")
+* {% tool "edpb-anonymisation-guidelines" %} (open for consultation until 10/2026)
 * [Press release: Judgment of the Court in Case C-413/23 P, EDPS v SRB (Concept of personal data), 2025](https://curia.europa.eu/site/upload/docs/application/pdf/2025-09/cp250107en.pdf "2026-07-30")
 
 Anonymization tools:

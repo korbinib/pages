@@ -51,62 +51,62 @@ _Supplementary info: Almost all computer systems will provide some system metada
 A metadata standard/schema is a predefined set of attributes to describe data in a clear and consistent way. Metadata standards/schemas can be generic or discipline-specific, and research communities have worked together to define what kind of metadata is needed when research of a certain kind is performed and described. Metadata standards/schemas are structured and machine-readable. Complete metadata helps to organise data during the project, and is necessary for data archiving.
 
 Most research data repositories implement specific standards, and the use of a particular archive often leads to the use of a particular metadata standard.  It is therefore useful to investigate suitable data repositories and respective metadata standards (or "Minimal Information Standards") early in the research process to make sure relevant metadata is collected when it first becomes available.\
-To enter information about "Minimal Information Standards" that will be applied, standards from the [FAIRsharing registry of standards](https://fairsharing.org/search?fairsharingRegistry=Standard) can be selected in the Wizard.
+To enter information about "Minimal Information Standards" that will be applied, standards from the [registry of standards](https://fairsharing.org/search?fairsharingRegistry=Standard) in {% tool "fairsharing" %} can be selected in the Wizard.
 
 Some examples of metadata standards:
 
-* [DataverseNO](https://dataverse.no/) institutional archives
+* {% tool "dataverseno" %} institutional archives
     * The metadata standard in DataverseNO combines generic and discipline-specific elements. The [user guide](https://site.uit.no/dataverseno/deposit/deposit-your-data/#enter-metadata) provides detailed guidance.
 * Life sciences
-    * [The European Nucleotide Archive (ENA)](https://www.ebi.ac.uk/ena/) requires that all samples must conform to a defined checklist of expected metadata values, and provides [checklists](https://www.ebi.ac.uk/ena/browser/checklists) for different types of samples. The [ELIXIR Norway helpdesk](/pages/support_00_local_disc#elixir-norway---life-sciences) may assist with data archiving.
+    * {% tool "european-nucleotide-archive" %} requires that all samples must conform to a defined checklist of expected metadata values, and provides [checklists](https://www.ebi.ac.uk/ena/browser/checklists) for different types of samples. The [ELIXIR Norway helpdesk](/pages/support_00_local_disc#elixir-norway---life-sciences) may assist with data archiving.
 * Language sciences
-    * [Clarino](https://clarin.w.uib.no/) requires that [CMDI metadata](https://www.clarin.eu/content/cmdi-component-metadata-infrastructure) are provided. The repository may assist in producing the [CMDI metadata](https://repo.clarino.uib.no/xmlui/page/item-lifecycle).
-    * [TROLLing](https://site.uit.no/trolling/) is part of DataverseNO, with similar metadata requirements, described in the [deposit guidelines](https://site.uit.no/trolling/getting-started/how-to-archive/).
+    * {% tool "clarino" %} requires that {% tool "cmdi" %} metadata are provided. The repository may assist in producing the [CMDI metadata](https://repo.clarino.uib.no/xmlui/page/item-lifecycle).
+    * {% tool "trolling" %} is part of DataverseNO, with similar metadata requirements, described in the [deposit guidelines](https://site.uit.no/trolling/getting-started/how-to-archive/).
 
 _Supplementary info: When unsure about relevant metadata standards within your field, the Dublin Core standard defines a minimum set of values and is embedded in many more comprehensive standards._
 
 Further reading:
 
-* [RDA metadata standards catalog](https://rdamsc.bath.ac.uk/)
-* [Digital Curation Centre: Metadata standards by discipline](https://www.dcc.ac.uk/guidance/standards/metadata)
+* {% tool "rda-metadata-standards-catalog" %}
+* {% tool "data-curation-centre-metadata-list" %}
 
 ### Will you use existing vocabularies/ontologies/terminologies to describe the data?
 
 Using defined terms ensures that your data is described consistently, reducing ambiguity and enabling interoperability across systems and disciplines. Controlled vocabularies provide standardised terms, while ontologies add structure by defining hierarchies and relationships between concepts. Please consider which controlled vocabularies, ontologies, or terminologies have relevance within your field of research and can be applied to heighten precision when describing the research data.
 
-To enter information on vocabularies/ontologies/terminologies that will be applied, vocabularies/ontologies/terminologies from the [FAIRsharing registry of standards](https://fairsharing.org/search?fairsharingRegistry=Standard&recordType=terminology_artefact) can be selected in the Wizard.
+To enter information on vocabularies/ontologies/terminologies that will be applied, vocabularies/ontologies/terminologies from the [registry of standards](https://fairsharing.org/search?fairsharingRegistry=Standard&recordType=terminology_artefact) in {% tool "fairsharing" %} can be selected in the Wizard.
 
 For some disciplines, look-up services can help identify relevant vocabularies/ontologies/terminologies. When in doubt of relevance, please look for usage by others within your field, like in published journal articles or connected to published datasets.
 
-* [Research Vocabularies Australia (vocabs ardc)](https://vocabs.ardc.edu.au/)
-* [Linked Open Vocabularies (LOV)](https://lov.linkeddata.es/dataset)
-* [EMBL-EBI Ontology Lookup Service (OLS)](https://www.ebi.ac.uk/ols4/index)
-* [CESSDA and service providers: CESSDA vocabulary service](https://vocabularies.cessda.eu/)
-* [TIB Terminology Service](https://terminology.tib.eu/ts/) hosted by Leibniz Information Center for Science and Technology and University Library
+* {% tool "research-vocabularies-australia" %}
+* {% tool "linked-open-vocabularies" %}
+* {% tool "ontology-lookup-service" %}
+* {% tool "cessda-vocabulary-service" %}
+* {% tool "tib-terminology-service" %} hosted by Leibniz Information Center for Science and Technology and University Library
 
 Some disciplinary vocabularies/ontologies/terminologies examples:
 
 * Life sciences
-    * [Darwin Core](https://doi.org/10.25504/FAIRsharing.xvf5y3) to describe information about biological diversity
-    * [Gene Ontology](https://doi.org/10.25504/FAIRsharing.6xq0ee) for annotation of genes, gene products and sequences
+    * {% tool "darwin-core" %} to describe information about biological diversity
+    * {% tool "gene-ontology" %} for annotation of genes, gene products and sequences
 * Biomedical science
-    * [Medical Subject Headings (MeSH)](https://doi.org/10.25504/FAIRsharing.qnkw45) are used for indexing, cataloguing, and searching for biomedical and health-related information and documents
-    * [Human Phenotype Ontology](https://doi.org/10.25504/FAIRsharing.kbtt7f) to describe phenotypic features encountered in human hereditary and other diseases
-    * [EBRAINS knowledge graph](https://docs.kg.ebrains.eu/) for Brain research
+    * {% tool "mesh" %} are used for indexing, cataloguing, and searching for biomedical and health-related information and documents
+    * {% tool "human-phenotype-ontology" %} to describe phenotypic features encountered in human hereditary and other diseases
+    * {% tool "ebrains-knowledge-graph" %} for Brain research
 * Geography
-    * [Marine Regions](https://doi.org/10.25504/FAIRsharing.5164e7) aims to to create a standard, relational list of geographic names, coupled with information and maps of the geographic location of these features
+    * {% tool "marine-regions" %} aims to to create a standard, relational list of geographic names, coupled with information and maps of the geographic location of these features
 * Social sciences
-    * [European Language Social Science Thesaurus (ELSST)](https://doi.org/10.25504/FAIRsharing.acd824)
-    * [Humord](https://data.ub.uio.no/skosmos/humord/nb/) A Norwegian thesaurus for the humanities and social sciences with related disciplines, managed by Oslo University Library.
+    * {% tool "elsst" %}
+    * {% tool "humord" %} A Norwegian thesaurus for the humanities and social sciences with related disciplines, managed by Oslo University Library.
 * Research data management
-    * [CODATA Research data management Terminology](https://vocabs.ardc.edu.au/viewById/685)
+    * {% tool "codata-rdm-terminology" %}
 
 Further reading:
 
-* [RDMkit: How do you find appropriate vocabularies or ontologies?](https://rdmkit.elixir-europe.org/metadata_management#how-do-you-find-appropriate-vocabularies-or-ontologies)
-* [FAIR Cookbook: Introduction to terminologies and ontologies](https://w3id.org/faircookbook/FCB019)
-* [FAIR Cookbook: Introduction to terminologies and ontologies](https://w3id.org/faircookbook/FCB004)
-* [FAIR Cookbook: Selecting an ontology lookup service](https://w3id.org/faircookbook/FCB004)
+* {% tool "rdmkit" %}: [How do you find appropriate vocabularies or ontologies?](https://rdmkit.elixir-europe.org/metadata_management#how-do-you-find-appropriate-vocabularies-or-ontologies)
+* {% tool "fair-cookbook" %}: [Introduction to terminologies and ontologies](https://w3id.org/faircookbook/FCB019)
+* {% tool "fair-cookbook" %}: [Introduction to terminologies and ontologies](https://w3id.org/faircookbook/FCB004)
+* {% tool "fair-cookbook" %}: [Selecting an ontology lookup service](https://w3id.org/faircookbook/FCB004)
 
 ### How are the rights to the collected data distributed?
 
@@ -124,7 +124,7 @@ If there is a consortium agreement or rights are arranged in another way, please
 Further reading:
 
 * [The Norwegian Copyright Act (Norwegian: Åndsverkloven)](https://lovdata.no/dokument/LTI/lov/2018-06-15-40)
-* [OpenAire: Is data always subject to copyright? (section: Specifications of licensing Research Data](https://www.openaire.eu/how-do-i-license-my-research-data)
+* {% tool "openaire" %}: [Is data always subject to copyright? (section: Specifications of licensing Research Data)](https://www.openaire.eu/how-do-i-license-my-research-data)
 
 ### Are there any use restrictions for these data?
 
@@ -133,12 +133,12 @@ If applicable, describing data use in a formalised way greatly improves the data
 
 Examples of use definition:
 
-* [Data Use Ontology (DUO)](https://github.com/EBISPOT/DUO#readme) is an international standard, which provides codes to represent data use restrictions for controlled access datasets
-* [Open Digital Rights Language (ODRL)](https://www.w3.org/TR/odrl-vocab/) is a policy expression language
+* {% tool "data-use-ontology" %} is an international standard, which provides codes to represent data use restrictions for controlled access datasets
+* {% tool "odrl" %} is a policy expression language
 
 Further reading:
 
-* [FAIRCookbook: Permitted uses of data](https://w3id.org/faircookbook/FCB035)
+* {% tool "fair-cookbook" %}: [Permitted uses of data](https://w3id.org/faircookbook/FCB035)
 * Article: Alter, G., Gonzalez-Beltran, A., Ohno-Machado, L., & Rocca-Serra, P. (2020). The Data Tags Suite (DATS) model for discovering data access and use requirements. GigaScience, 9(2), giz165. [doi: 10.1093/gigascience/giz165](https://doi.org/10.1093/gigascience/giz165)
 
 ### Will a license be assigned to the data as early as possible?
@@ -151,9 +151,9 @@ _Supplementary info: attribution requirements can lead to inconvenient [license 
 
 Further reading:
 
-* [RDMkit: Licensing](https://rdmkit.elixir-europe.org/licensing)
-* [CESSDA DMEG: Licensing your data](https://dmeg.cessda.eu/Data-Management-Expert-Guide/6.-Archive-Publish/Publishing-with-CESSDA-archives/Licensing-your-data)
-* [OpenAIRE: How do I license my research?](https://www.openaire.eu/how-do-i-license-my-research-data)
-* [Figshare: On choosing licenses](https://help.figshare.com/article/what-is-the-most-appropriate-licence-for-my-research)
-* [ELIXIR-BE RDM: Data licences](https://rdm.elixir-belgium.org/data_licences)
-* [Ufal License selector wizard](https://ufal.github.io/public-license-selector/)
+* {% tool "rdmkit" %}: [Licensing](https://rdmkit.elixir-europe.org/licensing)
+* {% tool "cessda-dmeg" %}: [Licensing your data](https://dmeg.cessda.eu/Data-Management-Expert-Guide/6.-Archive-Publish/Publishing-with-CESSDA-archives/Licensing-your-data)
+* {% tool "openaire" %}: [How do I license my research?](https://www.openaire.eu/how-do-i-license-my-research-data)
+* {% tool "figshare" %}: [On choosing licenses](https://help.figshare.com/article/what-is-the-most-appropriate-licence-for-my-research)
+* {% tool "elixir-belgium-rdm-guide" %}: [Data licences](https://rdm.elixir-belgium.org/data_licences)
+* {% tool "eudat-licence-selector-wizard" %}

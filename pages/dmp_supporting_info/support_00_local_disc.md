@@ -27,7 +27,7 @@ In addition, some Norwegian research infrastructures provide RDM support service
 
 ## Institutional RDM support (alphabetical order)
 
-Currently, we have only included selected Norwegian institutions in the list. For other organisations, find an overview in the [RDM resources in Norway (RDMkit): Support services](https://rdmkit.elixir-europe.org/no_resources#support-services).
+Currently, we have only included selected Norwegian institutions in the list. For other organisations, find an overview in the {% tool "rdmkit" %}: [RDM resources in Norway: Support services](https://rdmkit.elixir-europe.org/no_resources#support-services).
 
 ### INN - University of Inland Norway
 
@@ -91,71 +91,71 @@ Several Norwegian research infrastructures including national nodes of ESFRI (Eu
 
 ### Biobank Norway - Biobanking
 
-Biobank Norway provides the ELSI Helpdesk for Biobanking and advices on regulations and standards for ethical, legal, and societal issues. Biobank Norway is the Norwgian node of the European [Biobanking and BioMolecular resources Research Infrastructure (BBMRI ERIC)](https://www.bbmri-eric.eu/).
+Biobank Norway provides the ELSI Helpdesk for Biobanking and advices on regulations and standards for ethical, legal, and societal issues. Biobank Norway is the Norwgian node of the European Biobanking and BioMolecular resources Research Infrastructure ({% tool "bbmri-eric" %}).
 
-Homepage: [Biobank Norway](https://bbmri.no/ "2026-07-31")
+Homepage: {% tool "biobank-norway" %}
 
 ### CESSDA - Social sciences
 
 The Consortium for European Social Science Data Archives (CESSDA) has its main office in Norway.
 
-Homepage: [CESSDA](https://www.cessda.eu/ "2024-07-12")
+Homepage: {% tool "cessda" %}
 
-Knowledge resource: [Data Management Expert Guide](https://dmeg.cessda.eu/ "2024-07-12")
+Knowledge resource: {% tool "cessda-dmeg" %}
 
 ### CLARINO - Language sciences
 
-The Common Language Resources and Technology Infrastructure Norway (CLARINO) maintains research data repositories, tools and services. It is a node in the pan-European [Common Language Resources and Technology Infrastructure (CLARIN ERIC)](https://www.clarin.eu/).
+The Common Language Resources and Technology Infrastructure Norway (CLARINO) maintains research data repositories, tools and services. It is a node in the pan-European Common Language Resources and Technology Infrastructure ({% tool "clarin" %}).
 
-Homepage: [CLARINO](https://clarin.w.uib.no/ "2024-07-12")
+Homepage: {% tool "clarino" %}
 
 ### ELIXIR Norway - Life sciences
 
-ELIXIR Norway provides data management support as well as e-infrastructure, tools and data resources and training for the life sciences. It is the Norwegian node of the pan-European [infrastructure for biological information (ELIXIR)](https://elixir-europe.org/).
+ELIXIR Norway provides data management support as well as e-infrastructure, tools and data resources and training for the life sciences. It is the Norwegian node of the pan-European infrastructure for biological information ({% tool "elixir" %}).
 
-Homepage: [ELIXIR Norway](https://elixir.no/ "2024-07-12")
+Homepage: {% tool "elixir-norway" %}
 
 Helpdesk: [support@elixir.no](https://elixir.no/research-support/ "2026-07-31")
 
-Knowledge resource: [Norwegian Life Science RDM LookUp](https://elixir.no/rdm-lookup/ "2024-07-12")
+Knowledge resource: {% tool "rdm-lookup-norway" %}
 
-Knowledge resource: [RDMkit](https://rdmkit.elixir-europe.org/ "2024-07-12")
+Knowledge resource: {% tool "rdmkit" %}
 
-Knowledge resource: [FAIR Cookbook](https://faircookbook.elixir-europe.org/ "2024-09-09")
+Knowledge resource: {% tool "fair-cookbook" %}
 
 ### GBIF Norway- Biodiversity research
 
-GBIF Norway supplies IT-services and assistance with deposition of biodiversity data to affiliated organizations. It is the Norwegian node of the international network [Global Biodiversity Information Facility](https://www.gbif.org/).
+GBIF Norway supplies IT-services and assistance with deposition of biodiversity data to affiliated organizations. It is the Norwegian node of the international network {% tool "gbif" %}.
 
-Homepage: [GBIF Norway](https://www.gbif.no/ "2024-07-19")
+Homepage: {% tool "gbif-norway" %}
 
 Helpdesk: [helpdesk@gbif.no](https://www.gbif.no/services/ "2024-07-19")
 
 ### NALMIN - Norwegian Advanced Light Microscopy Imaging Network
 
-Norwegian Advanced Light Microscopy Imaging Network (NALMIN) principal goal is to establish a network at international competence level for advanced light microscopy. The network consists of 5 national nodes located in Oslo (1 node with two branches(NorMIC IBV and NorMIC Radium)), Bergen, Trondheim (2 nodes) and Tromsø, each with specialized competence. All nodes are members of the national NorBioimaging infrastructure organization, and the NorMIC Oslo node is a member of the [EuroBioimaging ECRIN](https://www.eurobioimaging.eu/nodes/normic-oslo---advanced-light-microscopy-node-oslo) network.
+Norwegian Advanced Light Microscopy Imaging Network (NALMIN) principal goal is to establish a network at international competence level for advanced light microscopy. The network consists of 5 national nodes located in Oslo (1 node with two branches(NorMIC IBV and NorMIC Radium)), Bergen, Trondheim (2 nodes) and Tromsø, each with specialized competence. All nodes are members of the national NorBioimaging infrastructure organization, and the [NorMIC Oslo node](https://www.eurobioimaging.eu/nodes/normic-oslo---advanced-light-microscopy-node-oslo) is a member of the {% tool "euro-bioimaging" %} network.
 
-Homepage: [NALMIN](https://nalmin.no/ "2024-08-12")
+Homepage: {% tool "nalmin" %}
 
 ### NAPI - National network of Advanced Proteomics Infrastructure
 
 NAPI partners include proteomics core facilities in Oslo, Bergen, Trondheim, Tromsø and Ås, as well as research groups with a strong focus on proteomics technology development. NAPI therefore combines the proteomics expertise available across Norway, streamlining collaborations, accelerating the development of new techniques, and providing researchers in Norway access to cutting edge proteomics technology.
 
-Homepage: [NAPI](https://www.napi.uio.no/ "2024-08-12")
+Homepage: {% tool "napi" %}
 
 ### NorCRIN - Clinical research
 
-The national infrastructure NorCRIN provides advice on national procedures, good clinical practice, data management and monitoring. NorCRIN is a partnership between six university hospitals in Norway with the objective to strengthen and simplify collaboration in all categories of clinical research in Norway and member of the [European Clinical Research Infrastructure Network (ECRIN ERIC)](https://ecrin.org/).
+The national infrastructure NorCRIN provides advice on national procedures, good clinical practice, data management and monitoring. NorCRIN is a partnership between six university hospitals in Norway with the objective to strengthen and simplify collaboration in all categories of clinical research in Norway and member of the European Clinical Research Infrastructure Network ({% tool "ecrin" %}).
 
-Homepage: [NorCRIN](https://www.norcrin.no/ "2024-07-12")
+Homepage: {% tool "norcrin" %}
 
 Knowledge resource: [Guidance and support (NorCRIN): Are you planning a clinical study?](https://www.norcrin.no/en/planlegger-du-klinisk-studie/)
 
 ### NOR-Openscreen - Chemical biology
 
-NOR-Openscreen is the Norwegian node of the [EU-Openscreen infrastructure (EU-Openscreen ERIC)](https://www.eu-openscreen.eu/) supporting the discovery of biologically active substances in all areas of the Life Sciences by providing transnational, open access to the most advanced technologies, chemical and biological resources as well as expertise through Europe. NOR-Openscreen offers guidance about FAIR data management.
+NOR-Openscreen is the Norwegian node of the {% tool "eu-openscreen" %} infrastructure supporting the discovery of biologically active substances in all areas of the Life Sciences by providing transnational, open access to the most advanced technologies, chemical and biological resources as well as expertise through Europe. NOR-Openscreen offers guidance about FAIR data management.
 
-Homepage: [NOR-Openscreen](https://www.openscreen.uio.no/english/index.html "2024-08-12")
+Homepage: {% tool "nor-openscreen" %}
 
 Helpdesk: [chembio@ncmm.uio.no](mailto:chembio@ncmm.uio.no?subject=Research%20Data%20Management)
 
@@ -163,7 +163,7 @@ Helpdesk: [chembio@ncmm.uio.no](mailto:chembio@ncmm.uio.no?subject=Research%20Da
 
 Sigma2 provides services in high-performance computing and large-scale data storage.
 
-Homepage: [Sigma2](https://www.sigma2.no/ "2024-07-12")
+Homepage: {% tool "sigma2" %}
 
 Helpdesk: [contact@sigma2.no](https://www.sigma2.no/user-support "2024-07-12")
 
@@ -171,7 +171,7 @@ Helpdesk: [contact@sigma2.no](https://www.sigma2.no/user-support "2024-07-12")
 
 Sikt maintains several data collections, including archival of personal data with restricted access and curation services.
 
-Homepage: [Sikt Research data](https://sikt.no/en/omrade/research-data "2024-07-12")
+Homepage: {% tool "sikt" %}
 
 Helpdesk: [kontakt@sikt.no](mailto:kontakt@sikt.no)
 
@@ -199,11 +199,11 @@ Book: The Open Handbook of Linguistic Data Management. (2022). [doi: 10.7551/mit
 
 ### Life Sciences
 
-Knowledge resource: [Norwegian Life Science RDM LookUp](https://elixir.no/rdm-lookup/ "2024-07-12")
+Knowledge resource: {% tool "rdm-lookup-norway" %}
 
-Knowledge resource: [RDMkit](https://rdmkit.elixir-europe.org/ "2024-07-12")
+Knowledge resource: {% tool "rdmkit" %}
 
-Knowledge resource: [FAIR Cookbook](https://faircookbook.elixir-europe.org/ "2024-09-09")
+Knowledge resource: {% tool "fair-cookbook" %}
 
 ### Mathematics
 
@@ -211,7 +211,7 @@ Article: Conrad, T. O. F., Ferrer, E., Mietchen, D., Pusch, L., Stegmüller, J.,
 
 ### Social Sciences
 
-Knowledge resource: [CESSDA Data Management Expert Guide](https://dmeg.cessda.eu/ "2024-07-12")
+Knowledge resource: {% tool "cessda-dmeg" %}
 
 Book: Weidmann, Nils B. (2023). Data Management for Social Scientists From Files to Databases. Cambridge University Press. [https://doi.org/10.1017/9781108990424](https://doi.org/10.1017/9781108990424)
 

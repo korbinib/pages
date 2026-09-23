@@ -56,11 +56,11 @@ Name is written Given-name Family-name; e.g. Niels Henrik Abel.
 
 Institutional email addresses as contact email are preferred.
 
-[ORCIDs](https://orcid.org/) are recommended to unambiguously identify researchers. If contributors do not have an ORCID they should create one – it's free of charge.
+{% tool "orcid" %} identifiers are recommended to unambiguously identify researchers. If contributors do not have an ORCID they should create one – it's free of charge.
 
-Affiliations are added at an institutional level and harvested from the [ROR registry of research organizations](https://ror.org/).
+Affiliations are added at an institutional level and harvested from the {% tool "ror" %}.
 
-Roles should be added to specify their contribution (following the [DataCite contributor type](https://datacite-metadata-schema.readthedocs.io/en/4.5/appendices/appendix-1/contributorType/ "2024-09-09") definitions). Examples of roles are:
+Roles should be added to specify their contribution (following the [contributor type](https://datacite-metadata-schema.readthedocs.io/en/4.5/appendices/appendix-1/contributorType/ "2024-09-09") definitions of the {% tool "datacite-metadata-schema" %}). Examples of roles are:
 
 * Contact Person
 * Project Leader
@@ -96,7 +96,7 @@ Institutional research data management policies:
 
 Further information:
 
-* [RDM resources in Norway (RDMkit): Institutional policies on research data](https://rdmkit.elixir-europe.org/no_resources#institutional-policies-on-research-data)
+* {% tool "rdmkit" %}: [RDM resources in Norway: Institutional policies on research data](https://rdmkit.elixir-europe.org/no_resources#institutional-policies-on-research-data)
 
 ### Have your made plans for revisions of this DMP?
 
@@ -107,8 +107,8 @@ Responsibility for DMP revisions can be specified based on the contributor list.
 
 ### Have you published, or will you publish (versions) of this DMP?
 
-You can publish the data management plan and its updates in an open repository like [Zenodo](https://zenodo.org/). By doing this your DMP will be permanently archived, get a DOI, and one can easily share and refer to the plan in collaborations and future grant applications. Publishing a data management plan is also best practice for research transparency and open research.
-Another option would be to publish the DMP in specialised journals or publishing platforms such as [RIO](https://riojournal.com/) as a full peer-reviewed publication, as also recommended by Horizon Europe.
+You can publish the data management plan and its updates in an open repository like {% tool "zenodo" %}. By doing this your DMP will be permanently archived, get a DOI, and one can easily share and refer to the plan in collaborations and future grant applications. Publishing a data management plan is also best practice for research transparency and open research.
+Another option would be to publish the DMP in specialised journals or publishing platforms such as {% tool "rio-journal" %} as a full peer-reviewed publication, as also recommended by Horizon Europe.
 
 For projects with information security requirements (e.g. dual use research, protection of intellectual property rights and/or commercial interests), the DMP itself could contain sensitive information. If applicable, the data management plan should not be published.
 

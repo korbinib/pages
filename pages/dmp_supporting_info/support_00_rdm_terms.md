@@ -19,14 +19,14 @@ sidebar: dmp_supporting_information
 
 Some of the terms used in the context of data management plans and research data management might need explanation. We try to adhere to the following definitions.
 
-For Norwegian translations, consult the [NO-RDA Termliste for forskningsdatahåndtering](https://www.openscience.no/en/node/3544).
+For Norwegian translations, consult the {% tool "no-rda-term-list" %}.
 
 ## Key research data management terms explained (alphabetical order, non-exhaustive)
 
 ### Archiving
 >
 > Definition according to CODATA: "Engage in curation activity that ensures that records, objects, metadata and data are properly selected, stored, and can be accessed, and for which logical and physical integrity are maintained over time, including security and authenticity."
-[CODATA RDM Terminology (version 2023)](https://doi.org/10.5281/zenodo.10626170) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+{% tool "codata-rdm-terminology" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 Archiving includes several steps. Data first need to be deposited, see [Data deposition](/pages/support_00_rdm_terms#Data-deposition). Often, there is a curation process where a curator engages with the depositor to improve the quality and ensure the FAIRness of the dataset. Furthermore, selecting a 'trustworthy' or 'trusted' research data archive ensures the long term preservation of the data, including a backup service.
 
@@ -38,11 +38,11 @@ Synonym: Long-term data repository. On these pages and in the affiliated data ma
 data deemed suitable for permanent retention, set up and managed to established standards and
 models, such as ISAD(G), CoreTrustSeal, and the OAIS reference model, that ensure long term
 integrity, security, authenticity and accessibility of the records, objects, metadata and data.
-[CODATA RDM Terminology (version 2023)](https://doi.org/10.5281/zenodo.10626170) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+{% tool "codata-rdm-terminology" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 #### Trustworthy repository, trustworthy archive
 
-The [Science Europe Practical Guide to the International Alignment of Research Data Management](https://doi.org/10.5281/zenodo.4915862) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) provides criteria for the selection of trustworthy repositories (pages 11-14 and 26-30).
+The {% tool "science-europe-dmp-guidance" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) provides criteria for the selection of trustworthy repositories (pages 11-14 and 26-30).
 > Trustworthy repositories should meet the following minimum criteria:
 >
 > * Provision of persistent and unique identifiers (PIDs)
@@ -86,7 +86,7 @@ To deposit data means to upload the data files to a data archive. Depositing is 
 ### Data preservation
  >
  > Definition according to CODATA: "An activity within archiving in which specific items of data are maintained over time so that they can still be accessed and understood through changes in technology."
-[CODATA RDM Terminology (version 2023)](https://doi.org/10.5281/zenodo.10626170) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+{% tool "codata-rdm-terminology" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 The CODATA definition implies that data preservation is part of the objectives with data archiving. When archiving data, data files should be in persistent file formats that ensure that users are able to open them long into the future. Furthermore, data should be well described with rich metadata, following standards and possibly including a readme-file. This ensures that future users understand what information the data holds. A good description is thus also part of data preservation.
 
@@ -111,29 +111,29 @@ See [data archive](/pages/support_00_rdm_terms#data-archive)
 ### FAIR principles
  >
  > FAIR data principles: Set of guiding principles to make data Findable, Accessible, Interoperable, and Reusable.
-[CODATA RDM Terminology (version 2023)](https://doi.org/10.5281/zenodo.10626170) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-[The FAIR principles in detail](https://www.go-fair.org/fair-principles/)
+{% tool "codata-rdm-terminology" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+The {% tool "fair-principles" %} in detail
 
 ### Metadata
  >
  > Metadata: Data about data. It is data (or information) that defines and describes the characteristics of other data. It is used to improve the understanding and use of the data.
-[CODATA RDM Terminology (version 2023)](https://doi.org/10.5281/zenodo.10626170) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+{% tool "codata-rdm-terminology" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 ### Metadata standard
  >
  > Metadata standard: High level, shared representation of the metadata elements related to a dataset, collection, or other digital object. May also provide an XML schema describing the format in which the elements should be stored. Typically, a standard XML format is defined using XML Schema or document type definition (DTD). Standards are typically ratified by national or international standards bodies.
-[CODATA RDM Terminology (version 2023)](https://doi.org/10.5281/zenodo.10626170) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+{% tool "codata-rdm-terminology" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 ### Persistent identifier (PID)
 >
-> Persistent identifier: Long-lasting digital reference to an object that gives information about that object regardless of what happens to that object. Developed to address link rot, a persistent identifier can be resolved to provide an appropriate representation of an object whether that object changes its online location or goes offline. [CODATA RDM Terminology (version 2023)](https://doi.org/10.5281/zenodo.10626170) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+> Persistent identifier: Long-lasting digital reference to an object that gives information about that object regardless of what happens to that object. Developed to address link rot, a persistent identifier can be resolved to provide an appropriate representation of an object whether that object changes its online location or goes offline. {% tool "codata-rdm-terminology" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 Examples:
 
 * [Digital Object identifier (DOI)](https://en.wikipedia.org/wiki/Digital_object_identifier "2024-09-09")
 * [Handle](https://en.wikipedia.org/wiki/Handle_System "2024-09-09")
 * Persistent URL (PURL)
-* Compact identifiers for life science data resolving via [identifers.org](https://identifiers.org/)
+* Compact identifiers for life science data resolving via {% tool "identifiers-org" %}
 
 ### Personal data
 >
@@ -146,14 +146,14 @@ Examples:
 ### Provenance, data lineage
  >
  > Provenance: A type of historical information or metadata about the origin, location or the source of something, or the history of the ownership or location of an object or resource including digital objects. For example, information about the Principal Investigator who recorded the data, and the information concerning its storage, handling, and migration.
-[CODATA RDM Terminology (version 2023)](https://doi.org/10.5281/zenodo.10626170) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+{% tool "codata-rdm-terminology" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 ### Repository
 
 On these pages and in the affiliated data management plan template, the term 'archive' is used for long-term repositories.
 
 > Repository: Physical or digital storage location that can house, preserve, manage, and provide access to many types of digital and physical materials in a variety of formats. Materials in online repositories are curated to enable search, discovery, and reuse. There must be sufficient control for the physical and digital material to be authentic, reliable, accessible and usable on a continuing basis.
-[CODATA RDM Terminology (version 2023)](https://doi.org/10.5281/zenodo.10626170) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+{% tool "codata-rdm-terminology" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 ### Research data
 >
@@ -163,17 +163,17 @@ On these pages and in the affiliated data management plan template, the term 'ar
 [The Research Council of Norway’s Policy for Open Access to Research Data](https://www.forskningsradet.no/contentassets/e4cd6d2c23cf49d4989bb10c5eea087a/the-research-council-of-norways-policy-for-open-access-to-research-data.pdf)
 
 > Research data: Data that are used as primary sources to support technical or scientific enquiry, research, scholarship, or artistic activity, and that are used as evidence in the research process and/or are commonly accepted in the research community as necessary to validate research findings and results. All other digital and non-digital content have the potential of becoming research data. Research data may be experimental data, observational data, operational data, third party data, public sector data, monitoring data, processed data, or repurposed data.
-[CODATA RDM Terminology (version 2023)](https://doi.org/10.5281/zenodo.10626170) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+{% tool "codata-rdm-terminology" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 ### Restricted access
 >
 > Restricted access refers to a resource that is available in a system but with some type of restriction for full open access. This type of access can occur in a number of different situations. Some examples are described below: The user must log-in to the system in order to access the resource The user must send an email to the author or system administrator to access the resource Access to the resource is restricted to a specific community.
-[COAR  Controlled Vocabularies for Repositories](https://vocabularies.coar-repositories.org/access_rights/c_16ec/) [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+{% tool "coar-vocabularies" %}: [Restricted access](https://vocabularies.coar-repositories.org/access_rights/c_16ec/) [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 
 ### Sensitive data
 >
 > The term sensitive data is used when making data publicly available could put people, organisations, countries, and/or ecosystems at risk - this could be for example, personal or commercial information, [...]. Such data sensitivity must be protected against unauthorized access, and therefore one should be cautious when dealing with potentially sensitive or sensitive information.
-[RDMkit: Data sensitivity](https://rdmkit.elixir-europe.org/data_sensitivity) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+{% tool "rdmkit" %}: [Data sensitivity](https://rdmkit.elixir-europe.org/data_sensitivity) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 ### Special category data
 >

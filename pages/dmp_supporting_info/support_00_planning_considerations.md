@@ -166,7 +166,7 @@ Since 2023, The Research Council of Norway has incorporated assessment of Open R
 In Horizon Europe, Open Science practices are considered in the evaluation of proposals under the 'Excellence' and under the 'Quality and efficiency of implementation' assessment criterion. Open access to research outputs such as publications, data, software, models, algorithms, and workflows is considered mandatory practice and failure to address this will result in a lower evaluation score. Adoption of additional recommended Open Science practices can improve the evaluation score.
 
 * [Directorate-General for Research and Innovation (European Commission). (2021). Horizon Europe Open Science Fact Sheet.](https://doi.org/10.2777/18252)
-* [European Commission. (2021, updated 2023). Horizon Europe Programme Guide: Evaluation of open science practices p.42ff](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/guidance/programme-guide_horizon_en.pdf "2024-09-12")
+* {% tool "horizon-europe-programme-guide" %} (European Commission, 2021, updated 2023): Evaluation of open science practices, p.42ff
 * [Horizon Europe FAQ: Under Horizon Europe, does a Data Management Plan (DMP) need to be included as part of the proposal?](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/support/faq/19539)
 
 Read more about [Research data management and DMP requirements](/pages/support_00_dmp_requirements).

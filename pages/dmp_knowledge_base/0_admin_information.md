@@ -17,7 +17,9 @@ toc: true
 <code>(Note that it is the responsibility of the project manager, or supervisor in student projects, to ensure that a DMP is created and followed up.)</code>
 
 <!--key information-->
-### [Science Europe DMP Guidance](https://doi.org/10.5281/zenodo.4915862 "Science Europe. (2021). Practical Guide to the International Alignment of Research Data Management - Extended Edition. https://doi.org/10.5281/zenodo.4915862") [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) - annotated
+### Science Europe DMP Guidance - annotated
+
+{% tool "science-europe-dmp-guidance" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 > 0.1\
 >Provide information such as name of applicant, project number, funding programme, version of DMP.
@@ -54,7 +56,9 @@ More specific descriptions of roles and responsibilities can be added in [6 - Da
 - planning post-award, final reporting
 " %}
 
-#### Coverage in [RDA Common Standard for maDMP](http://doi.org/10.15497/rda00039) [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+#### Coverage in RDA Common Standard for maDMP
+
+{% tool "rda-dmp-common-standard" %} [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
 [Properties in dmp]
 
@@ -74,19 +78,25 @@ Missing:
 <!--additional guidance from funders-->
 ### Other DMP guidance
 
-#### [Guidance from NFR](https://www.forskningsradet.no/en/research-policy-strategy/open-science/research-data/)
+#### Guidance from NFR
+
+{% tool "nfr-dmp-guidance" %}
 
 [Administrative information]
 
 - The data management plan should include information about the Project Owner's institution, project manager, project number, project title, funder and version.
 
-#### [Horizon Europe DMP Template](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/how-to-participate/reference-documents?selectedProgrammePeriod=2021-2027&selectedProgramme=HORIZON)
+#### Horizon Europe DMP Template
+
+{% tool "horizon-europe-dmp-template" %}
 
 [1. Data Summary]
 
 - Do you, or will you, make use of other national/funder/sectorial/departmental procedures for data management? If yes, which ones (please list and briefly describe them)?
 
-#### [FAIRsFAIR FAIR-Aware Additional Guidance](https://doi.org/10.5281/zenodo.6088215) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+#### FAIRsFAIR FAIR-Aware Additional Guidance
+
+{% tool "fair-aware-additional-guidance" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 - not covered
 
@@ -107,7 +117,9 @@ Missing:
 <!--recycling possible?-->
 ### Existing sources that can be reused
 
-#### [UiT - DMP guidance](https://en.uit.no/research/research-dataportal/art?p_document_id=726373)
+#### UiT - DMP guidance
+
+{% tool "uit-dmp-guidance" %}
 
 Responsible for this plan (name):
 
@@ -129,13 +141,17 @@ Who is responsible for follow-up and revision of this data management plan? (Nor
 
 Who is responsible for each activity? (May vary for collection, documentation, archiving etc.)
 
-#### [SIKT DMP](https://sikt.no/en/study-or-research/data-management-plan) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+#### SIKT DMP
+
+{% tool "sikt-dmp-guidance" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 Describe the research questions, issues and hypotheses that are addressed in the project and state how the data collection / generation can shed light on these issues.
 
 The institution responsible for research project has overall responsibility and must ensure that research at the institution takes place in accordance with recognised research ethical norms. It must also ensure compliance with relevant legislation and regulations when carrying out the project. If institution responsible for the research has an service agreement with us for the Plan Archive service, then administrative staff with user rights will have read-only access to your data management plan once it created. The Plan Archive provides the institution an overview of all data management plans where their institution is listed as the institution responsible for the research project.
 
-#### [EasyDMP](https://www.sigma2.no/service/data-management-plan) [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+#### EasyDMP
+
+{% tool "easy-dmp" %} [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 
 **Administrative information – covering the project that will produce or use the data. The project can be located on NIRD storage (in which case it will have a project
 number).**
@@ -146,7 +162,9 @@ Please give the funding programs to which your project belongs – if you have a
 
 If known, please give the project number – if this project will use NIRD storage, then either there will be a project number already assigned, or this plan will accompany a proposal for NIRD storage.
 
-#### [SND - Checklist DMP](https://doi.org/10.5281/zenodo.6424769)  [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+#### SND - Checklist DMP
+
+{% tool "snd-dmp-checklist" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 1.1 Project description
 [A brief description of the project. For example, the purpose of the project and what research questions will be addressed.]

@@ -72,8 +72,8 @@ In addition, subject-specific ethical guidelines and codes of conduct commonly a
 
 Further information:
 
-* [Ethical aspects (RDMkit): Which aspects of RDM might raise ethical issues?](https://rdmkit.elixir-europe.org/ethics#which-aspects-of-rdm-might-raise-ethical-issues)
-* [Protect (CESSDA DMEG): Ethics and data protection](https://dmeg.cessda.eu/Data-Management-Expert-Guide/5.-Protect/Ethics-and-data-protection "2024-07-17")
+* {% tool "rdmkit" %}: [Ethical aspects: Which aspects of RDM might raise ethical issues?](https://rdmkit.elixir-europe.org/ethics#which-aspects-of-rdm-might-raise-ethical-issues)
+* {% tool "cessda-dmeg" %}: [Protect: Ethics and data protection](https://dmeg.cessda.eu/Data-Management-Expert-Guide/5.-Protect/Ethics-and-data-protection "2024-07-17")
 
 ### Ethical approvals
 
@@ -82,12 +82,12 @@ For certain projects, an ethical pre-approval is needed to execute the project. 
 Research projects conducting medical and health research on human beings, human biological material or personal health data must be pre-approved by the Regional committees for medical and health research ethics (REK):
 
 * [Regional Committees for Medical and Health Research Ethics](https://www.forskningsetikk.no/en/about-us/our-committees-and-commission/rek/)
-* [REK-portalen](https://rekportalen.no/#hjem/home "2024-07-17")
+* {% tool "rek-portalen" %}
 
 Research projects conducting animal experiments must seek pre-approval from the Norwegian Food Safety Authority (Norwegian: Mattilsynet), which is handled through the FOTS application portal:
 
 * [Mattilsynet on experimental animals *Norwegian only*](https://www.mattilsynet.no/dyr/forsoksdyr "2024-07-17"){:lang="no"}
-* [FOTS (Forsøksdyrforvaltningens tilsyns- og søknadssystem) application portal](https://asp.gitek.no/fdu/pmws.dll/Login "2024-07-17")
+* {% tool "fots" %} (Forsøksdyrforvaltningens tilsyns- og søknadssystem) application portal
 * [Animal use for scientific purposes *Norwegian only*](https://www.forsoksdyrkomiteen.no/ressurser/){:lang="no"}
 
 While institutional ethical committees are common in many countries, in Norway these have only have been established at selected institution and faculties. For most domains the researchers themselves will make an ethical assessment of the research project with reference to relevant guidelines and regulations. As part of this assessment, it is necessary to consider the potential harm and risk that may arise from the research. Here consequences of sharing research data should be considered according to the principle of "as open as possible, as closed as necessary". For international projects it is advisable to consider research ethics issues before entering collaborations as perceptions and legislation may differ between countries.
@@ -147,7 +147,7 @@ Further information:
 Specifying the host institution and possible collaboration partners is important as this defines legal responsibilities and implies which guidelines are to be followed.\
 Read more about [The research-performing institution(s).](/pages/support_03_legal_ethics#the-research-performing-institution)
 
-The questionnaire is integrated with the [Research Organization Registry (ROR)](https://ror.org/search "2024-07-16") to unambiguously identify institutions. In case the organisation is not registered, type the name and click outside of the text box and the string will be saved.
+The questionnaire is integrated with the {% tool "ror" %} to unambiguously identify institutions. In case the organisation is not registered, type the name and click outside of the text box and the string will be saved.
 
 Please identify both the host institution (In multi-partner projects: coordinating institution) and possible collaboration partners or external parties/subcontractors contributing to the project. If your project has scientific collaborators or external partners, please indicate any relevant contracts or collaboration agreements for later reference. If documents to not have an unique identifier, refer e.g. to the document number in the institutional archival system.\
 Formalising collaboration in an agreement/contract is recommended. It can include who has access to and/or controls what data, assign responsibilities to project partners, and define under what license data and other projects results will be published.
@@ -196,7 +196,7 @@ Ethical considerations may affect how data will be handled and shared. Investiga
 
 Please indicate any additional ethical guidelines or codes of conducts relevant for the project. Examples (non-exhaustive):
 
-* [CARE Principles for Indigenous Data Governance](https://www.gida-global.org/careprinciples "2026-07-31")
+* {% tool "care-principles" %}
 * [The TRUST Code – Global Code of Conduct for Equitable Research Partnerships](https://www.globalcodeofconduct.org/ "2024-04-22")
 * [Ethical advice on international collaboration in research](https://www.forskningsetikk.no/en/resources/ethical-advice-on-international-collaboration-in-research/ "2026-07-30")
 * [Guidelines for Internet Research Ethics](https://www.forskningsetikk.no/en/about-us/our-committees-and-commission/nesh/guidelines-nesh/a-guide-to-internet-research-ethics/ "2024-10-30")
@@ -209,8 +209,8 @@ Please indicate any additional ethical guidelines or codes of conducts relevant 
 
 Further information:
 
-* [Ethical aspects (RDMkit): How can I identify regulations, guidelines and laws connected to ethics in my research context?](https://rdmkit.elixir-europe.org/ethics#how-can-i-identify-regulations-guidelines-and-laws-connected-to-ethics-in-my-research-context)
-* [RDM resources in Norway (RDMkit): Relevant ethical guidelines](https://rdmkit.elixir-europe.org/no_resources#relevant-ethical-guidelines)
+* {% tool "rdmkit" %}: [Ethical aspects: How can I identify regulations, guidelines and laws connected to ethics in my research context?](https://rdmkit.elixir-europe.org/ethics#how-can-i-identify-regulations-guidelines-and-laws-connected-to-ethics-in-my-research-context)
+* {% tool "rdmkit" %}: [RDM resources in Norway: Relevant ethical guidelines](https://rdmkit.elixir-europe.org/no_resources#relevant-ethical-guidelines)
 
 Read more about [Research Ethical Guidelines and Codes of conduct.](/pages/support_03_legal_ethics#research-ethical-guidelines-and-codes-of-conduct)
 
@@ -279,11 +279,11 @@ In this question you refer to the privacy assessment(s) conducted by selecting "
 If you already described the processing of personal data in detail in other systems including local registration of personal data processing, the Sikt notification form for personal data, or executing and registering a Data Protection Impact assessment (DPIA), you can refer to these registration(s). Specify the system where the respective registration system and identifier of the project registration. Questions regarding lawful processing of personal data and routines at your institution should be directed to the respective Data Protection Officer (DPO, Norwegian: Personvernombud).
 
 * Institutional routines for privacy assessment:
-    * [RETTE at UiB](https://rette.app.uib.no/)
+    * {% tool "rette" %} at UiB
     * [NTNU guidance for Data Protection Impact Assessment (DPIA)](https://i.ntnu.no/wiki/-/wiki/English/Data+protection+impact+assessment "2024-10-30")
     * [UiO Quality assurance system for health and medical research](https://www.uio.no/english/for-employees/support/research/quality-system-for-health-research/index.html "2024-10-30")
-* [Sikt notification form for personal data ('Sikt Meldeskjema')](https://sikt.no/en/notification-form-personal-data)
-* For agreements on data processing you can find inspiration in the [Data Agreement Wizard](https://dawid.elixir-luxembourg.org/) - - make sure to clarify the agreement(s) with your institutional legal person as well.
+* {% tool "sikt-notification-form" %}
+* For agreements on data processing you can find inspiration in the {% tool "dawid" %} - - make sure to clarify the agreement(s) with your institutional legal person as well.
 
 ##### Privacy considerations step-by-step
 
@@ -324,17 +324,17 @@ Institutional resources on participant information and consent:
 
 Resources on participant information and consent forms:
 
-* [GA4GH consent toolkit](https://www.ga4gh.org/product/consent-toolkit/) with examples of granular consent and machine readable metadata (for human genetic data)
-* [Informed Consent Ontology (ICO)](https://www.ebi.ac.uk/ols4/ontologies/ico)
-* [W3 Data Privacy Vocabulary (DPV)](https://w3c.github.io/dpv/)
-* For Arts and humanities you can get inspiration for consent forms from the [DARIAH ELDAH Consent Form Wizard (CFW)](https://consent.dariah.eu/) - make sure to clarify the form with your insitutional legal person as well
-* [Sikt guidance on participant information in research projects](https://sikt.no/en/fylle-ut-meldeskjema-personopplysninger/information-participants-research-projects "2024-01-23")
+* {% tool "ga4gh-consent-toolkit" %} with examples of granular consent and machine readable metadata (for human genetic data)
+* {% tool "informed-consent-ontology" %}
+* {% tool "data-privacy-vocabulary" %}
+* For Arts and humanities you can get inspiration for consent forms from the {% tool "dariah-consent-form-wizard" %} - make sure to clarify the form with your insitutional legal person as well
+* {% tool "sikt" %}: [Guidance on participant information in research projects](https://sikt.no/en/fylle-ut-meldeskjema-personopplysninger/information-participants-research-projects "2024-01-23")
 
 Further information:
 
 * [National Research Ethics Committees: Consent](https://www.forskningsetikk.no/en/resources/the-research-ethics-library/data-protection-and-responsibility-concerning-the-individual/consent/)
-* sikresiden.no e-learning course [Protection of privacy (GDPR) and ethics in research](https://www.sikresiden.no/en/preventive/safetyandsecuretraining "2025-10-06")
-* [Sikt guidance for Legal bases for personal data processing in research](https://sikt.no/en/tjenester/personverntjenester-forskning/personvernhandbok-forskning/legal-bases-personal-data-processing-research)
+* {% tool "sikresiden" %} e-learning course: [Protection of privacy (GDPR) and ethics in research](https://www.sikresiden.no/en/preventive/safetyandsecuretraining "2025-10-06")
+* {% tool "sikt" %}: [Guidance on legal bases for personal data processing in research](https://sikt.no/en/tjenester/personverntjenester-forskning/personvernhandbok-forskning/legal-bases-personal-data-processing-research)
 
 ### Will sensitive information (apart from special category personal data) be collected/processed?
 
@@ -356,7 +356,7 @@ Reasons for sensitivity (non-exhaustive) and relevant resources:
 
 Resources on export control:
 
-* sikresiden.no e-learning course [Research security in international cooperation](https://www.sikresiden.no/en/preventive/safetyandsecuretraining "2025-10-06")
+* {% tool "sikresiden" %} e-learning course: [Research security in international cooperation](https://www.sikresiden.no/en/preventive/safetyandsecuretraining "2025-10-06")
 * [Norwegian Agency for Export Control and Sanctions (DEKSA)](https://deksa.no/en/ "2025-03-04")
 * [Norwegian Directorate for Higher Education and Skills: Export control of knowledge transfer and international sanctions](https://hkdir.no/en/guidelines-and-tools-for-responsible-international-knowledge-cooperation/international-research-and-innovation-cooperation/export-control-of-technology-transfer-and-international-sanctions "2026-08-20")
 * [Ministry of Foreign Affairs: Guidelines for technology export (2025) *in Norwegian*](https://www.regjeringen.no/no/dokumenter/veileder-for-eksport-av-teknologi/id3116449/){:lang="no"})

@@ -31,7 +31,7 @@ This page collects selected information about RDM and DMP requirements and polic
 
 ## The Research Council of Norway
 
-* [The Research Council of Norway: Sharing research data (webpage)](https://www.forskningsradet.no/en/research-policy-strategy/open-science/research-data/ "2024-10-25")
+* {% tool "nfr-dmp-guidance" %}
   > * Requirements for data management plan in projects that manage data
   >     * The Research Council of Norway does not assess the content of submitted plans. It is the responsibility of the Project Owner to approve that the plan is in line with the institution's requirements and guidelines before it is submitted.
   >     * Data management plans should, as far as possible, be public and published openly so that academic communities can better follow their peers' practices

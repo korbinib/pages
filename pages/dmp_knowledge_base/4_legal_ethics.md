@@ -17,12 +17,14 @@ toc: true
 ## 4a - If personal data are processed, how will compliance with legislation on personal data and on data security be ensured?
 
 <!--key information-->
-### [Science Europe DMP Guidance](https://doi.org/10.5281/zenodo.4915862 "Science Europe. (2021). Practical Guide to the International Alignment of Research Data Management - Extended Edition. https://doi.org/10.5281/zenodo.4915862") [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) - annotated
+### Science Europe DMP Guidance - annotated
+
+{% tool "science-europe-dmp-guidance" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 Personal privacy is here addressed purely from a legal perspective, if working with personal data this should also be addressed under 4c ethical issues.
 Processing of personal data and or health data affects the need for data security in the project, make sure this is appropriately addressed under [3b - How will data security and protection of sensitive data be taken care of during the research?](3_storage_backup).
 
-- [Test the Ethics and data protection decision tree from European Commission](https://ec.europa.eu/assets/rtd/ethics-data-protection-decision-tree/index.html "2024-01-22")
+- Test the {% tool "ec-ethics-decision-tree" %}
 
 For the legal details in Norway, please consult:
 
@@ -51,8 +53,8 @@ In this context also the following laws and regulations might be relevant:
 
 According to GDPR there are two options for legal bases for processing of personal data in research, consent and p interest in research purposes, if the later is used consent is collected for compliance with ethical guidelines.
 
-- [Consult SIKTs guidance for Legal bases for personal data processing in research.](https://sikt.no/en/tjenester/personverntjenester-forskning/personvernhandbok-forskning/legal-bases-personal-data-processing-research)
-- [Consult SIKTs guidance for information and consent.](https://sikt.no/en/fylle-ut-meldeskjema-personopplysninger/information-participants-research-projects "2024-01-23")
+- Consult the guidance from {% tool "sikt" %} on [legal bases for personal data processing in research](https://sikt.no/en/tjenester/personverntjenester-forskning/personvernhandbok-forskning/legal-bases-personal-data-processing-research).
+- Consult the guidance from {% tool "sikt" %} on [information and consent](https://sikt.no/en/fylle-ut-meldeskjema-personopplysninger/information-participants-research-projects "2024-01-23").
 - Consult your institutions requirements for notification forms for personal data, Data Protection Impact Assessments (DPIAs), risk and compliance system or similar.
 
 > 4a.2
@@ -61,7 +63,7 @@ According to GDPR there are two options for legal bases for processing of person
 
 Please note that the specific 'consent' under GDPR as a legal basis is not equivalent with 'informed consent' in the context of health research. For more information please consult the [Opinion 3/2019 concerning the Questions and Answers on the interplay between the Clinical Trials Regulation (CTR) and the General Data Protection regulation (GDPR)](https://www.edpb.europa.eu/documents/legislative-opinion/opinion-32019-concerning-the-questions-and-answers-on-the-interplay_en) of the European data protection board.
 
-If consent is used as legal basis for processing of personal data consider asking for permission to archive the data for the purpose of future research, and possibly also educational purposes as part of both the informed and specific consent. It is advisable to use standard consent clauses, which can be reflected with machine readable metadata (See e.g. the [GA4GH consent toolkit](https://www.ga4gh.org/product/consent-toolkit/) as an example for human genetic data)
+If consent is used as legal basis for processing of personal data consider asking for permission to archive the data for the purpose of future research, and possibly also educational purposes as part of both the informed and specific consent. It is advisable to use standard consent clauses, which can be reflected with machine readable metadata (See e.g. the {% tool "ga4gh-consent-toolkit" %} as an example for human genetic data)
 
 > 4a.3
 >
@@ -69,8 +71,8 @@ If consent is used as legal basis for processing of personal data consider askin
 
 The relevance of anonymisation will depend on the data type and other available information.
 
-- [Datatilsynet: A guide to the anonymisation of personal data (2015)](https://www.datatilsynet.no/link/2e642d84d9214490866a297a71a44c78.aspx/download)
-- [EDPB Guidelines 02/2026 on Psudonymisation](https://www.edpb.europa.eu/public-consultations/guidelines-012025-on-pseudonymisation_en "2026-07-30"))
+- {% tool "datatilsynet-anonymisation-guide" %}
+- {% tool "edpb-pseudonymisation-guidelines" %}
 
 > 4a.4
 >
@@ -117,7 +119,9 @@ If the data should be available for future research contact the archive you wish
 - planning post-award, active phase
 " %}
 
-#### Coverage in [RDA Common Standard for maDMP](http://doi.org/10.15497/rda00039) [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+#### Coverage in RDA Common Standard for maDMP
+
+{% tool "rda-dmp-common-standard" %} [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
 [Properties in dmp]
 
@@ -145,7 +149,9 @@ Missing:
 <!--additional guidance from funders-->
 ### Other DMP guidance
 
-#### [Guidance from NFR](https://www.forskningsradet.no/en/research-policy-strategy/open-science/research-data/)
+#### Guidance from NFR
+
+{% tool "nfr-dmp-guidance" %}
 
 [Rights and legal requirements and codes of conduct]
 
@@ -155,14 +161,18 @@ Missing:
 - Should a managed procedure be used for authorized access to personal data?
 (Rights and legal requirements and codes of conduct)
 
-#### [Horizon Europe DMP Template](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/how-to-participate/reference-documents?selectedProgrammePeriod=2021-2027&selectedProgramme=HORIZON)
+#### Horizon Europe DMP Template
+
+{% tool "horizon-europe-dmp-template" %}
 
 [6. Ethics]
 
 - Are there, or could there be, any ethics or legal issues that can have an impact on data sharing? These can also be discussed in the context of the ethics review. If relevant, include references to ethics deliverables and ethics chapter in the Description of the Action (DoA).
 - Will informed consent for data sharing and long term preservation be included in questionnaires dealing with personal data?
 
-#### [FAIRsFAIR FAIR-Aware Additional Guidance](https://doi.org/10.5281/zenodo.6088215) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+#### FAIRsFAIR FAIR-Aware Additional Guidance
+
+{% tool "fair-aware-additional-guidance" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 - For guidance on access, see [5a - How and when will data be shared? Are there possible restrictions to data sharing or embargo reasons?](5_sharing_preservation).
 
@@ -222,10 +232,10 @@ Missing:
 
 #### Data Anonymization
 
-- [Datatilsynet: A guide to the anonymisation of personal data (2015)](https://www.datatilsynet.no/link/2e642d84d9214490866a297a71a44c78.aspx/download)
-- [Sikt: Carrying out a project without processing personal data](https://sikt.no/en/personvernhandbok-forskning/carrying-out-project-without-processing-personal-data "2024-07-18")
-- Sikt archive accepts anonymized and directly/indirectly identifiable quantitative data. Sikt does not accept anonymized qualitative data. [Types of data to be archived with Sikt](https://sikt.no/en/tjenester/arkivere-data/what-kind-data-can-be-archived-sikt "2024-07-18")
-- [Amnesia Anonymization Tool (OpenAire)](https://amnesia.openaire.eu/)
+- {% tool "datatilsynet-anonymisation-guide" %}
+- {% tool "sikt" %}: [Carrying out a project without processing personal data](https://sikt.no/en/personvernhandbok-forskning/carrying-out-project-without-processing-personal-data "2024-07-18")
+- {% tool "sikt-archive" %} accepts anonymized and directly/indirectly identifiable quantitative data. Sikt does not accept anonymized qualitative data. [Types of data to be archived with Sikt](https://sikt.no/en/tjenester/arkivere-data/what-kind-data-can-be-archived-sikt "2024-07-18")
+- {% tool "amnesia" %}
 
 ---
 <!--additional explanations - only keywords-->
@@ -244,7 +254,9 @@ Missing:
 <!--recycling possible?-->
 ### Existing sources that can be reused
 
-#### [NTNU - DMP Guidance](https://i.ntnu.no/wiki/-/wiki/English/DMP+guidance)
+#### NTNU - DMP Guidance
+
+{% tool "ntnu-dmp-guidance" %}
 
 If your project includes personal data (any information relating to an identified or identifiable person), consider using the NSD DMP tool.
  To ensure compliance with GDPR, all projects with personal data are required to send a notification form describing all relevant elements of the planned data processing to Norwegian Centre for Research Data (NSD)/SIKT for an assessment. (The only exception: health research projects at the Faculty of Medicine and Health Sciences.)
@@ -253,7 +265,9 @@ If your project includes personal data (any information relating to an identifie
  Relevant documents:
  Collection of personal data for research projects (NTNU)
 
-#### [UiT - DMP guidance](https://en.uit.no/research/research-dataportal/art?p_document_id=726373)
+#### UiT - DMP guidance
+
+{% tool "uit-dmp-guidance" %}
 
 Which data will be preserved, and which will be destroyed at the end of the project?
 
@@ -264,17 +278,23 @@ Will the data be made openly available? If only a selection of the data will be 
 Does the material contain confidential information (e.g. personal data and data with security classification) that requires special treatment and/or limits the access to the material during/after the project?]
  Why is this important? If the material contains confidential information, you must guarantee that it’s protected from unauthorised access. Contact your organization’s IT security office to make sure that data are handled correctly for their information classification level (see the paragraph above).
 
-#### [SIKT DMP](https://sikt.no/en/study-or-research/data-management-plan) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+#### SIKT DMP
+
+{% tool "sikt-dmp-guidance" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 Each research institution must ensure that research at their institution is in accordance with recognised research ethical norms. It is therefore important that researchers are familiar with, and comply with, relevant and recognised research ethical guidelines. Note that in interdisciplinary projects it may be relevant to refer to guidelines for several subject areas. For more information about the ethical responsibilities of research and research institutions, see the Research Ethics Act.
 
-#### [EasyDMP](https://www.sigma2.no/service/data-management-plan) [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+#### EasyDMP
+
+{% tool "easy-dmp" %} [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 
 **Legal and ethical requirements, codes of conduct – covers the steps that you will take to ensure the legal and ethical requirements for your data are followed.**
 
 If your project uses personal data, describe how you will ensure compliance with legislation on personal data and security - you should include how you plan to obtain consent, how you will manage the data (e.g. anonymisation of the data, access, transfer - if applicable, and destruction). You should include documentation on approved procedures that you plan to adopt.
 
-#### [SND - Checklist DMP](https://zenodo.org/records/6424769) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+#### SND - Checklist DMP
+
+{% tool "snd-dmp-checklist" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 **Does the material contain confidential information (e.g. personal data and data with security classification) that requires special treatment and/or limits the access to the material during/after the project?**
 *Why is this important?*
@@ -293,7 +313,9 @@ Protecting the personal integrity of research subjects (see the General Data Pro
 *Why is this important?*
 Research material that will contain personal data has to be reported to the data protection officer. The research principal is legally obligated (GDPR, Article 30) to keep a record of all projects where personal data are processed.
 
-#### [10 steps towards privacy compliance in research](https://zenodo.org/records/10417514) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+#### 10 steps towards privacy compliance in research
+
+{% tool "privacy-compliance-10-steps" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 1. Keep the GDPR in mind when designing your research: Do you need to collect personal data, why, and how much?
 2. Make sure you have a legal basis to use personal data, e.g., public interest or consent
@@ -312,7 +334,9 @@ Research material that will contain personal data has to be reported to the data
 ## 4b - How will other legal issues, such as intellectual property rights and ownership, be managed? What legislation is applicable?
 
 <!--key information-->
-### [Science Europe Guidance](https://doi.org/10.5281/zenodo.4915862 "Science Europe. (2021). Practical Guide to the International Alignment of Research Data Management - Extended Edition. https://doi.org/10.5281/zenodo.4915862") [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) - annotated
+### Science Europe Guidance - annotated
+
+{% tool "science-europe-dmp-guidance" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 If relevant also export control, protection of cultural heritage (Kulturminneloven), commercial interests. etc. should be discussed here.
 
@@ -381,7 +405,9 @@ Clearly explains, if applicable:
 - planning post-award, active phase
 " %}
 
-#### Coverage in [RDA Common Standard for maDMP](http://doi.org/10.15497/rda00039) [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+#### Coverage in RDA Common Standard for maDMP
+
+{% tool "rda-dmp-common-standard" %} [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
 [Properties in dataset]
 
@@ -395,7 +421,9 @@ Missing:
 <!--additional guidance from funders-->
 ### Other DMP guidance
 
-#### [Guidance from NFR](https://www.forskningsradet.no/en/research-policy-strategy/open-science/research-data/)
+#### Guidance from NFR
+
+{% tool "nfr-dmp-guidance" %}
 
 [Rights and legal requirements and codes of conduct]
 
@@ -406,11 +434,15 @@ Missing:
 - Where the project involves several partners and/or several legal or natural persons with rights to research data; How should rights to control data access be managed in the project?
 - Where the research data falls under copyright or database protection under the Copyright Act; What rights apply and how will this be managed in the project? When using data from a third party; What access and purpose restrictions, if any, apply to this data?
 
-#### [Horizon Europe DMP Template](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/how-to-participate/reference-documents?selectedProgrammePeriod=2021-2027&selectedProgramme=HORIZON)
+#### Horizon Europe DMP Template
+
+{% tool "horizon-europe-dmp-template" %}
 
 - not covered
 
-#### [FAIRsFAIR FAIR-Aware Additional Guidance](https://doi.org/10.5281/zenodo.6088215) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+#### FAIRsFAIR FAIR-Aware Additional Guidance
+
+{% tool "fair-aware-additional-guidance" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 - For guidance on access, see [5a - How and when will data be shared? Are there possible restrictions to data sharing or embargo reasons?](5_sharing_preservation).
 
@@ -467,7 +499,9 @@ Missing:
 <!--recycling possible?-->
 ### Existing sources that can be reused
 
-#### [NTNU - DMP guidance](https://i.ntnu.no/wiki/-/wiki/English/DMP+guidance)
+#### NTNU - DMP guidance
+
+{% tool "ntnu-dmp-guidance" %}
 
 Consider who will have ownership and/or rights to the data (including copyright), meaning who will have the rights or responsibility to control access, and later decide publishing. In general, if the research project is conducted by NTNU employees, NTNU will have ownership to results and IPR (see the IPR policy, part 4.3), The Policy for Open Science at NTNU states that results from research at NTNU should made publicly available if possible (for Licensing principles see part 3.1 in Guidelines for Open Science). Therefore, consider what data (and other results, like code, models, simulations etc) be openly accessible after the project is finalized, or will there be access restrictions? In the latter case, what restrictions and why?
 
@@ -475,21 +509,29 @@ If there are external partners, how will this affect ownership and sharing of da
 
 Note that in some cases, export control regulations will apply to the project results. See Control of knowledge transfer at Innsida for more information.
 
-#### [UiT - DMP guidance](https://en.uit.no/research/research-dataportal/art?p_document_id=726373)
+#### UiT - DMP guidance
+
+{% tool "uit-dmp-guidance" %}
 
 Who has ownership of the data? (Normally UiT, unless ownership has been agreed on differently e.g. with external collaborators.)
 
 How will the data be licensed for reuse? (According to section 4.5 in the UiT guidelines, research data shall be equipped with licenses for access, reuse, and dissemination. These licenses should be internationally recognised and set as few limitations on the data as possible. The researcher must ensure that licenses and applicable conditions for the use or sharing of third party data are complied with.)
 
-#### [SIKT DMP](https://sikt.no/en/study-or-research/data-management-plan) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+#### SIKT DMP
+
+{% tool "sikt-dmp-guidance" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 Generally, the rights to project results should be transferred from the researchers (and possibly others who have helped create such results) to the institution(s) where the researchers are employed. This is in accordance with the Employees’ Inventions Act, and in accordance with the objectives of the Act relating to universities and university colleges (see in particular §1-5, Academic freedom and responsibility). See also the Norwegian Research Council’s Policy on Intellectual Property Rights.
 
-#### [EasyDMP](https://www.sigma2.no/service/data-management-plan) [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+#### EasyDMP
+
+{% tool "easy-dmp" %} [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 
 Describe how you plan to address other legal issues such as intellectual property rights and ownership - you should describe who will own the data (who has access rights) and intellectual property rights and what license you will apply to the data. You should consider an internationally recognised license to maximise data reuse. If you are reusing data, you should describe any restrictions imposed by this data.
 
-#### [SND - Checklist DMP](https://zenodo.org/records/6424769) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+#### SND - Checklist DMP
+
+{% tool "snd-dmp-checklist" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 [Refer to the information security guidelines and policies in your university/organization and define what implications they have. What information classification level does the data material have and what security measures are needed to protect the material? Who should have access to the project data during the project and how do you plan to protect the data from unauthorised access?]
 
@@ -506,7 +548,10 @@ Copyright is protected in the Swedish constitution (Chapter 2, Article 19) and r
 ## 4c - How will possible ethical issues be taken into account, and codes of conduct followed?
 
 <!--key information-->
-### [Science Europe Guidance](https://doi.org/10.5281/zenodo.4915862 "Science Europe. (2021). Practical Guide to the International Alignment of Research Data Management - Extended Edition. https://doi.org/10.5281/zenodo.4915862") [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) - annotated
+### Science Europe Guidance - annotated
+
+{% tool "science-europe-dmp-guidance" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
 >
 > 4c.1\
 > Consider whether ethical issues can affect how data are stored and transferred, who can see or use them, and how long they are kept.
@@ -538,7 +583,7 @@ It is less common that the institutions have ethics committees.
 
 Be aware of international codes of conduct including but not limited to:
 
-- [CARE principles from GIDA](https://www.gida-global.org/careprinciples) for Indigenous Data Governance
+- {% tool "care-principles" %} from the Global Indigenous Data Alliance (GIDA)
 - [Indigenous data, consent](https://www.ohchr.org/sites/default/files/Documents/Issues/IPeoples/FreePriorandInformedConsent.pdf)
 - [Nagoya protocol](https://www.cbd.int/abs) on Access to Genetic Resources and the Fair and Equitable Sharing of Benefits Arising from their Utilization to the Convention on Biological Diversity
 - [WMA Declaration of Helsinki](https://www.wma.net/policies-post/wma-declaration-of-helsinki-ethical-principles-for-medical-research-involving-human-subjects/) on Ethical Principles for Medical Research Involving Human Subjects
@@ -572,7 +617,9 @@ Also reflect on and consulting communities and general Responsible Research and 
 - planning post-award, active phase
 " %}
 
-#### Coverage in [RDA Common Standard for maDMP](http://doi.org/10.15497/rda00039) [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+#### Coverage in RDA Common Standard for maDMP
+
+{% tool "rda-dmp-common-standard" %} [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
 [Properties in dmp]
 
@@ -593,18 +640,24 @@ Missing:
 <!--additional guidance from funders-->
 ### Other DMP guidance
 
-#### [Guidance from NFR](https://www.forskningsradet.no/en/research-policy-strategy/open-science/research-data/)
+#### Guidance from NFR
+
+{% tool "nfr-dmp-guidance" %}
 
 [Rights and legal requirements and codes of conduct]
 
 - What ethical issues can affect how data is stored and transferred, who has data access to view or use the data, and how long it should be kept?
 - Which institutional, national and/or international guidelines for research ethics apply to the project? Examples may be approval from regional committees for medical and health research ethics (REK) or the Norwegian Food Safety Authority.
 
-#### [Horizon Europe DMP Template](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/how-to-participate/reference-documents?selectedProgrammePeriod=2021-2027&selectedProgramme=HORIZON)
+#### Horizon Europe DMP Template
+
+{% tool "horizon-europe-dmp-template" %}
 
 - not covered
 
-#### [FAIRsFAIR FAIR-Aware Additional Guidance](https://doi.org/10.5281/zenodo.6088215) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+#### FAIRsFAIR FAIR-Aware Additional Guidance
+
+{% tool "fair-aware-additional-guidance" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 - Explicitly state in your metadata when access to the data needs to be limited due to ethical reasons. Include information on how to request access when this is possible an mention the contact details of the rights holder.
 - In case data cannot be publicly shared due to ethical reasons, make sure you do still publish the accompanying metadata.
@@ -639,26 +692,36 @@ Missing:
 <!--recycling possible?-->
 ### Existing sources that can be reused
 
-#### [NTNU - DMP Guidance](https://i.ntnu.no/wiki/-/wiki/English/DMP+guidance)
+#### NTNU - DMP Guidance
+
+{% tool "ntnu-dmp-guidance" %}
 
 Is an ethical review (for example by an ethics committee/REK or approval of use of experimental animals) required for data collection in the research project?
 
-#### [UiT - DMP guidance](https://en.uit.no/research/research-dataportal/art?p_document_id=726373)
+#### UiT - DMP guidance
+
+{% tool "uit-dmp-guidance" %}
 
 Are you going to collect informed consent to store and share the data? If so, how? How are you going to secure confidentiality and identity protection?
 
-#### [SIKT DMP](https://sikt.no/en/study-or-research/data-management-plan) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+#### SIKT DMP
+
+{% tool "sikt-dmp-guidance" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 Add any comments on issues related to for example: research on human embryos and fetuses, and/or human cells and tissues; collection of personal data and obtaining consent; animal research; research in non-EU countries; unintended effects on the environment, health and safety; and the potential misuse of research results. See also [EU/H2020's guidelines on How to complete your ethics self-assessment.](https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/guidance/how-to-complete-your-ethics-self-assessment_en.pdf)
 
-#### [SND - Checklist DMP](https://zenodo.org/records/6424769) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+#### SND - Checklist DMP
+
+{% tool "snd-dmp-checklist" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 [Does the project need ethical approval or has it been approved? Enter the reference number here.]
 
 **Why is this important?**
  Research that falls under the scope of the Act (2003:460) concerning the Ethical Review of Research Involving Humans (the Ethical Review Act, updated 2020-01-01) can only be carried out after ethical approval, which is applied for by the research principal. Without ethical approval, the research is illegal and subject to legal consequences. Ethical approval is also needed for research that involves animal testing.
 
-#### [DMP Tuuli](https://zenodo.org/records/5242629) [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+#### DMP Tuuli
+
+{% tool "dmptuuli-guidance" %} [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 How will you manage the rights of the data you use, produce and share? (2.2) Describe how you will agree upon the rights of use related to your research data – including the collected, produced and (re)used data of your project. Here, you can employ your categorisation in the first question. Each of these categories involves different rights and licenses. Describe the transfer of rights procedures relevant to your project. Describe confidentiality issues if applicable in your project. License your data!
 

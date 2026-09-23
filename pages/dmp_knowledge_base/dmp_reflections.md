@@ -25,7 +25,7 @@ An initial version of these reflections has been published as working paper on z
 A data management plan (DMP) is a structured document containing information and thoughts regarding the handling of research data throughout the entire lifecycle of a research project, with the intention of making data as FAIR (Findable, Accessible, Interoperable, Reusable) and as open as possible. A DMP is a living document to be updated as the project develops, ensuring that legal and ethical aspects as well as information security requirements are met, and helping to maximise project impact. For researchers, writing a DMP should be an awareness-creating process while the DMP itself can function as a hub that connects data-related aspects in a project.
 
 Importantly, the information in a data management plan can also be valuable for third-party actors at different stages of a research project. Integrating information in DMPs with other services through **machine-actionable data management plans (maDMP)** is increasingly gaining interest (see e.g. [Miksa et al. (2019). Ten Principles for Machine-Actionable Data Management Plans.](https://doi.org/10.1371/journal.pcbi.1006750)).\
-[Version 1.2 of the maDMP Common Standard](https://github.com/RDA-DMP-Common/RDA-DMP-Common-Standard/releases/tag/v1.2) has been released end of 2025, yet there are interactions remaining that are not currently covered by the standard. Currently, the standard is best suited to exchange administrative information and information about produced datasets, relating to information that is relevant in the starting or concluding phase of a research project. Aspects related to conducting research in the active phase, including legal and ethical considerations and dynamic changes to data and metadata remain difficult to reflect.
+[Version 1.2](https://github.com/RDA-DMP-Common/RDA-DMP-Common-Standard/releases/tag/v1.2) of the {% tool "rda-dmp-common-standard" %} has been released end of 2025, yet there are interactions remaining that are not currently covered by the standard. Currently, the standard is best suited to exchange administrative information and information about produced datasets, relating to information that is relevant in the starting or concluding phase of a research project. Aspects related to conducting research in the active phase, including legal and ethical considerations and dynamic changes to data and metadata remain difficult to reflect.
 
 In our experience, one critical obstacle remains the technological readiness on the stakeholder side to receive DMP-information through API endpoints. Overcoming this requires both international standardization efforts (such as the [OSTrails project](/pages/dmp_reflections#inspiring-dmp-project-elsewhere)) and working together on implementing local or national use case examples.
 
@@ -107,15 +107,15 @@ While working on the project, we came across inspiring DMP projects in other cou
 
 * Open data flagship pilot (Sweden): [final report](https://doi.org/10.17196/snd.flagship-open-data.2022)
 * Aalto University (Finland): Viitanen, E. (2023). Testing Open Science Tools: Machine-actionable DMPs. Septentrio Conference Series, (1). [https://doi.org/10.7557/5.7129](https://doi.org/10.7557/5.7129)
-* DeiC DMP (Denmark): [https://dmp.deic.dk/](https://dmp.deic.dk/)
+* {% tool "deic-dmp" %} (Denmark)
 * Salzburg Manifesto on machine-actionable Data Management Plans (maDMPs): [https://doi.org/10.5281/zenodo.10658522](https://doi.org/10.5281/zenodo.10658522)
 * OSTrails (EU project): [https://ostrails.eu](https://ostrails.eu)
 
 ### maDMP extensions (non-exhaustive)
 
-* OSTrails Application Profile for maDMPs: [https://docs.ostrails.eu/en/latest/commons/dmp/application-profile.html](https://docs.ostrails.eu/en/latest/commons/dmp/application-profile.html "2026-02-23")
-* Extension of the RDA maDMP standard for governments and other large organizations: [https://fairerdata.github.io/maDMP-Standard/](https://fairerdata.github.io/maDMP-Standard/ "2026-02-23")
-* maSMP for Software Management Plans by ZB MED: [https://zbmed-semtec.github.io/maSMPs/](https://zbmed-semtec.github.io/maSMPs/ "2026-02-23")
+* {% tool "ostrails-madmp-application-profile" %}
+* {% tool "madmp-government-extension" %}
+* {% tool "masmp" %} for Software Management Plans by ZB MED
 
 ### Relevant working groups
 
