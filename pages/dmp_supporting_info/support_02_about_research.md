@@ -60,7 +60,7 @@ Examples of common funders as registered in ROR:
 * Norwegian foundations
     * Norwegian Cancer Society (id: [01925vb10](https://ror.org/01925vb10))
     * Trond Mohn Foundation (id: [018zj6955](https://ror.org/018zj6955))
-    * Kristian Gerhard Jebsen Foundation (ide: [021g6tq38](https://ror.org/021g6tq38))
+    * Kristian Gerhard Jebsen Foundation (id: [021g6tq38](https://ror.org/021g6tq38))
     * Stiftelsen Dam (id: [02esmmc86](https://ror.org/02esmmc86))
 * European Commission (id: [00k4n6c32](https://ror.org/00k4n6c32))
     * European Research Council (id: [0472cxd90](https://ror.org/0472cxd90))
@@ -72,7 +72,7 @@ It will be important to provide the unique identificator for the grant while rep
 * The Research Council of Norway usually assigns a 6-digit project number which is registered in {% tool "prosjektbanken" %}
 * The Norwegian Health Regions assign grant numbers through {% tool "ihelse-research-projects" %}
 * EU projects are registered in the {% tool "cordis" %} database
-* {% tool "dimensions" %} is a commerical service collecting data from research project databases and CRIS systems, providing it e.g. to ORCID
+* {% tool "dimensions" %} is a commercial service collecting data from research project databases and CRIS systems, providing it e.g. to ORCID
 
 #### Which research data management requirements does the funder set?
 
