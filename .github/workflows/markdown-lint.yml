@@ -14,9 +14,10 @@ on:
       - ".github/workflows/markdown-lint.yml"
   workflow_dispatch:
 
+# Read-only on purpose: fork PRs never get a write token, so fix suggestions are
+# posted by markdown-lint-suggest.yml instead.
 permissions:
   contents: read
-  pull-requests: write # reviewdog posts fix suggestions as PR review comments
 
 env:
   MARKDOWNLINT_CLI2: markdownlint-cli2@0.23.3
@@ -53,17 +54,20 @@ jobs:
             -filter-mode=${{ github.event_name == 'pull_request' && 'file' || 'nofilter' }} \
             -fail-level=any
 
-      # Runs the auto-fixer and posts the resulting changes as review suggestions
-      # that can be applied with "Commit suggestion". Runs even when findings failed the step above.
+      # Runs the auto-fixer and uploads the resulting changes. markdown-lint-suggest.yml
+      # posts them as review suggestions that can be applied with "Commit suggestion".
+      # Runs even when findings failed the step above.
       - name: Apply auto-fixes
         if: ${{ !cancelled() && github.event_name == 'pull_request' }}
-        run: npx --yes "$MARKDOWNLINT_CLI2" --fix "$GLOB" || true
+        run: |
+          npx --yes "$MARKDOWNLINT_CLI2" --fix "$GLOB" || true
+          mkdir -p "$RUNNER_TEMP/markdownlint-fixes"
+          git diff > "$RUNNER_TEMP/markdownlint-fixes/fixes.diff"
 
-      - name: Suggest fixes
+      - name: Upload auto-fixes
         if: ${{ !cancelled() && github.event_name == 'pull_request' }}
-        uses: reviewdog/action-suggester@v1
+        uses: actions/upload-artifact@v7
         with:
-          tool_name: markdownlint --fix
-          level: warning
-          filter_mode: diff_context
-          fail_level: none
+          name: markdownlint-fixes
+          path: ${{ runner.temp }}/markdownlint-fixes/fixes.diff
+          retention-days: 1

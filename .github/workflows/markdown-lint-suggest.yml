@@ -1,0 +1,81 @@
+name: Markdown Lint Suggestions
+
+# Posts the auto-fixes from markdown-lint.yml as PR review suggestions.
+# PRs from forks only get a read-only GITHUB_TOKEN, so the lint run can't post review
+# comments itself. This workflow runs afterwards in the context of the base repository
+# (always using the version of this file on the default branch) with a write token.
+# It never checks out or runs code from the PR; the uploaded diff is only read as data.
+
+on:
+  workflow_run:
+    workflows: ["Markdown Lint"]
+    types: [completed]
+
+permissions:
+  actions: read # download the artifact from the lint run
+  pull-requests: write # post review suggestions
+
+jobs:
+  suggest:
+    if: >-
+      github.event.workflow_run.event == 'pull_request' &&
+      contains(fromJSON('["success", "failure"]'), github.event.workflow_run.conclusion)
+    runs-on: ubuntu-latest
+    steps:
+      # workflow_run.pull_requests is empty for PRs from forks, so look the PR up by its
+      # head. Requiring the head SHA to match skips runs for commits that are no longer
+      # the PR's head, so suggestions never land on the wrong PR or an outdated diff.
+      - name: Find pull request
+        id: pr
+        env:
+          GH_TOKEN: ${{ github.token }}
+          HEAD_OWNER: ${{ github.event.workflow_run.head_repository.owner.login }}
+          HEAD_BRANCH: ${{ github.event.workflow_run.head_branch }}
+          HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+        run: |
+          number=$(gh api -X GET "repos/$GITHUB_REPOSITORY/pulls" \
+            -f state=open -f head="$HEAD_OWNER:$HEAD_BRANCH" \
+            --jq 'map(select(.head.sha == env.HEAD_SHA)) | .[0].number // empty')
+          echo "number=$number" >> "$GITHUB_OUTPUT"
+          [ -n "$number" ] || echo "No open PR with head $HEAD_OWNER:$HEAD_BRANCH@$HEAD_SHA, skipping."
+
+      - name: Download auto-fixes
+        if: steps.pr.outputs.number
+        uses: actions/download-artifact@v8
+        with:
+          name: markdownlint-fixes
+          run-id: ${{ github.event.workflow_run.id }}
+          github-token: ${{ github.token }}
+          path: ${{ runner.temp }}/markdownlint-fixes
+
+      - name: Setup reviewdog
+        if: steps.pr.outputs.number
+        uses: reviewdog/action-setup@v1
+        with:
+          reviewdog_version: v0.21.2
+
+      # Same reviewdog invocation as reviewdog/action-suggester, which can't be used here
+      # because it reads the PR from the event payload and diffs the working tree.
+      - name: Suggest fixes
+        if: steps.pr.outputs.number
+        env:
+          REVIEWDOG_GITHUB_API_TOKEN: ${{ github.token }}
+          PR_NUMBER: ${{ steps.pr.outputs.number }}
+          HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+        run: |
+          # reviewdog needs a git work tree to resolve paths; no repository content is used.
+          git init -q
+          # reviewdog takes the PR number and head SHA from the event payload, which
+          # workflow_run doesn't provide, so hand it a minimal pull_request event.
+          jq -n --argjson pr "$PR_NUMBER" --arg sha "$HEAD_SHA" \
+            --arg owner "${GITHUB_REPOSITORY%/*}" --arg repo "${GITHUB_REPOSITORY#*/}" \
+            '{repository: {owner: {login: $owner}, name: $repo},
+              pull_request: {number: $pr, head: {sha: $sha}}}' > "$RUNNER_TEMP/event.json"
+          GITHUB_EVENT_PATH="$RUNNER_TEMP/event.json" reviewdog \
+            -name="markdownlint --fix" \
+            -f=diff -f.diff.strip=1 \
+            -reporter=github-pr-review \
+            -filter-mode=diff_context \
+            -level=warning \
+            -fail-level=none \
+            < "$RUNNER_TEMP/markdownlint-fixes/fixes.diff"
